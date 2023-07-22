@@ -112,28 +112,20 @@ namespace QuanLyTaiKhoanNganHang
                 btnDangNhap_Click(sender, e);
             }
         }
-
-        private void btnDangNhap_KeyDown(object sender, KeyEventArgs e)
-        {
-        }
-
         private void lblLinkĐangKy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
            FormTaoTaiKhoan formTaoTaiKhoan = new FormTaoTaiKhoan();
-            this.Hide();
             formTaoTaiKhoan.Show();
         }
-
-        private void Thoat_Click_1(object sender, EventArgs e)
-        {
-            this.Close();
-        }
-
+    
         private void txtMatKhau_TextChanged_2(object sender, EventArgs e)
         {
             txtMatKhau.UseSystemPasswordChar = true;
         }
 
-
+        private void btnCloseDN_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
