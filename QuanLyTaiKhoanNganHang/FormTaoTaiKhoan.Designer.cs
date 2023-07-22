@@ -95,7 +95,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Gray;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.Thoat);
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.label2);
@@ -137,12 +137,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("UD Digi Kyokasho NK-B", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(128)));
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(455, 11);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(473, 45);
+            this.label2.Size = new System.Drawing.Size(475, 39);
             this.label2.TabIndex = 1;
             this.label2.Text = "Tạo Tài Khoản Ngân Hàng";
             // 
@@ -171,7 +171,9 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Black;
             this.label1.Location = new System.Drawing.Point(47, 89);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -182,7 +184,9 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.Black;
             this.label3.Location = new System.Drawing.Point(48, 126);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
@@ -202,7 +206,9 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Black;
             this.label5.Location = new System.Drawing.Point(48, 206);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -213,7 +219,9 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
             this.label6.Location = new System.Drawing.Point(48, 304);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
@@ -224,6 +232,7 @@
             // rdbNam
             // 
             this.rdbNam.AutoSize = true;
+            this.rdbNam.BackColor = System.Drawing.Color.Transparent;
             this.rdbNam.Location = new System.Drawing.Point(196, 302);
             this.rdbNam.Margin = new System.Windows.Forms.Padding(4);
             this.rdbNam.Name = "rdbNam";
@@ -231,11 +240,12 @@
             this.rdbNam.TabIndex = 82;
             this.rdbNam.TabStop = true;
             this.rdbNam.Text = "Nam";
-            this.rdbNam.UseVisualStyleBackColor = true;
+            this.rdbNam.UseVisualStyleBackColor = false;
             // 
             // rdbNu
             // 
             this.rdbNu.AutoSize = true;
+            this.rdbNu.BackColor = System.Drawing.Color.Transparent;
             this.rdbNu.Location = new System.Drawing.Point(288, 302);
             this.rdbNu.Margin = new System.Windows.Forms.Padding(4);
             this.rdbNu.Name = "rdbNu";
@@ -243,11 +253,12 @@
             this.rdbNu.TabIndex = 83;
             this.rdbNu.TabStop = true;
             this.rdbNu.Text = "Nữ";
-            this.rdbNu.UseVisualStyleBackColor = true;
+            this.rdbNu.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(589, 167);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -267,6 +278,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
+            this.label8.BackColor = System.Drawing.Color.Transparent;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.Location = new System.Drawing.Point(589, 209);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -330,6 +342,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(589, 90);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -341,6 +354,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
+            this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.Location = new System.Drawing.Point(589, 127);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -369,7 +383,9 @@
             // label11
             // 
             this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.ForeColor = System.Drawing.Color.Black;
             this.label11.Location = new System.Drawing.Point(48, 256);
             this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
@@ -388,6 +404,7 @@
             // label12
             // 
             this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.Location = new System.Drawing.Point(589, 256);
             this.label12.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -449,7 +466,9 @@
             // label13
             // 
             this.label13.AutoSize = true;
+            this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.Location = new System.Drawing.Point(48, 162);
             this.label13.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label13.Name = "label13";
@@ -567,6 +586,7 @@
             // rdbKhac
             // 
             this.rdbKhac.AutoSize = true;
+            this.rdbKhac.BackColor = System.Drawing.Color.Transparent;
             this.rdbKhac.Location = new System.Drawing.Point(375, 302);
             this.rdbKhac.Margin = new System.Windows.Forms.Padding(4);
             this.rdbKhac.Name = "rdbKhac";
@@ -574,7 +594,7 @@
             this.rdbKhac.TabIndex = 84;
             this.rdbKhac.TabStop = true;
             this.rdbKhac.Text = "Khác";
-            this.rdbKhac.UseVisualStyleBackColor = true;
+            this.rdbKhac.UseVisualStyleBackColor = false;
             // 
             // pictureBox1
             // 
@@ -630,7 +650,7 @@
             // 
             // HienMatKhau
             // 
-            this.HienMatKhau.BackColor = System.Drawing.SystemColors.Control;
+            this.HienMatKhau.BackColor = System.Drawing.Color.Transparent;
             this.HienMatKhau.Image = ((System.Drawing.Image)(resources.GetObject("HienMatKhau.Image")));
             this.HienMatKhau.Location = new System.Drawing.Point(503, 153);
             this.HienMatKhau.Margin = new System.Windows.Forms.Padding(4);
