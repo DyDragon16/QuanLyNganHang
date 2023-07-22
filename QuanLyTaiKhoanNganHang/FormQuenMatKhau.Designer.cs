@@ -76,10 +76,10 @@
             // 
             // btnLayLaiMatKhau
             // 
-            this.btnLayLaiMatKhau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.btnLayLaiMatKhau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
             this.btnLayLaiMatKhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLayLaiMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLayLaiMatKhau.ForeColor = System.Drawing.Color.Red;
+            this.btnLayLaiMatKhau.ForeColor = System.Drawing.Color.White;
             this.btnLayLaiMatKhau.Location = new System.Drawing.Point(127, 345);
             this.btnLayLaiMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.btnLayLaiMatKhau.Name = "btnLayLaiMatKhau";
@@ -95,6 +95,7 @@
             this.labelMatKhau.AutoSize = true;
             this.labelMatKhau.BackColor = System.Drawing.Color.Transparent;
             this.labelMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelMatKhau.ForeColor = System.Drawing.Color.White;
             this.labelMatKhau.Location = new System.Drawing.Point(170, 317);
             this.labelMatKhau.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelMatKhau.Name = "labelMatKhau";
@@ -118,7 +119,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(50, 231);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
@@ -131,7 +132,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(92, 267);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
