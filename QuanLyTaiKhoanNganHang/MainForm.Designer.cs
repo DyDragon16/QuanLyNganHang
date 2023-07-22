@@ -41,7 +41,6 @@
             this.hướngDẫnDùngAppToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.xuấtDanhSáchTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
@@ -174,8 +173,7 @@
             this.xemChiTiếtThôngTinToolStripMenuItem,
             this.hướngDẫnDùngAppToolStripMenuItem,
             this.đăngXuấtToolStripMenuItem,
-            this.đăngNhậpTàiKhoảnKhácToolStripMenuItem,
-            this.xuấtDanhSáchTàiKhoảnToolStripMenuItem});
+            this.đăngNhậpTàiKhoảnKhácToolStripMenuItem});
             this.càiĐặtToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.càiĐặtToolStripMenuItem.Name = "càiĐặtToolStripMenuItem";
             this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
@@ -215,12 +213,6 @@
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem.Text = "Đăng Nhập Tài Khoản Khác";
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem.Click += new System.EventHandler(this.đăngNhậpTàiKhoảnKhácToolStripMenuItem_Click);
-            // 
-            // xuấtDanhSáchTàiKhoảnToolStripMenuItem
-            // 
-            this.xuấtDanhSáchTàiKhoảnToolStripMenuItem.Name = "xuấtDanhSáchTàiKhoảnToolStripMenuItem";
-            this.xuấtDanhSáchTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
-            this.xuấtDanhSáchTàiKhoảnToolStripMenuItem.Text = "Xuất Danh Sách Tài Khoản ";
             // 
             // pictureBox9
             // 
@@ -569,6 +561,5 @@
         private System.Windows.Forms.Button btnMayTinh;
         private System.Windows.Forms.Button btnThongBao;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ToolStripMenuItem xuấtDanhSáchTàiKhoảnToolStripMenuItem;
     }
 }
