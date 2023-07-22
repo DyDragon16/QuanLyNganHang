@@ -135,7 +135,7 @@ namespace QuanLyTaiKhoanNganHang
 
             if (dialog == DialogResult.Yes)
             {
-                this.Hide();
+                this.Close();
                 FormDangNhap form = new FormDangNhap();
                 form.Show();
             }
@@ -150,7 +150,7 @@ namespace QuanLyTaiKhoanNganHang
 
             if (dialog == DialogResult.Yes)
             {
-                this.Hide();
+                this.Close();
                 FormDangNhap form = new FormDangNhap();
                 form.Show();
             }
@@ -165,7 +165,7 @@ namespace QuanLyTaiKhoanNganHang
 
             if (dialog == DialogResult.Yes)
             {
-                this.Hide();
+                this.Close();
                 FormDangNhap form = new FormDangNhap();
                 form.Show();
             }
@@ -220,7 +220,12 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnCloseAll_Click(object sender, EventArgs e)
         {
-            Close();
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+                this.Close();
+            }
+
             // đồng hồ dừng khi form bị đóng.
             timer.Stop();
         }

@@ -9,7 +9,7 @@ namespace QuanLyTaiKhoanNganHang
 {
     class Connection
     {
-        private static string stringConnection = @"Data Source=LAPTOP-046ARUTC\SQLEXPRESS01;Initial Catalog=QuanLyTaiKhoanNganHang;Integrated Security=True";
+        private static string stringConnection = @"Data Source=LAPTOP-67KBB992\MSSQLSERVER04;Initial Catalog=QuanLyTaiKhoanNganHang;Integrated Security=True";
 
         public static Connection connection = null;
 

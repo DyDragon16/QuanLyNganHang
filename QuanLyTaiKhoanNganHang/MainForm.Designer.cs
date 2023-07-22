@@ -134,14 +134,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("UTM Loko", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(44, 18);
+            this.label2.Location = new System.Drawing.Point(19, 104);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(189, 32);
+            this.label2.Size = new System.Drawing.Size(215, 18);
             this.label2.TabIndex = 124;
-            this.label2.Text = "Ngân Hàng SMB";
+            this.label2.Text = "SMB TRAO TRỌN TIN YÊU";
             // 
             // panel3
             // 
@@ -177,7 +177,7 @@
             this.đăngXuấtToolStripMenuItem,
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem});
             this.càiĐặtToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.càiĐặtToolStripMenuItem.ForeColor = System.Drawing.Color.White;
+            this.càiĐặtToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
             this.càiĐặtToolStripMenuItem.Name = "càiĐặtToolStripMenuItem";
             this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(73, 22);
             this.càiĐặtToolStripMenuItem.Text = "Cài Đặt";
@@ -296,7 +296,7 @@
             this.btnGiaoDich.FlatAppearance.BorderSize = 0;
             this.btnGiaoDich.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGiaoDich.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGiaoDich.ForeColor = System.Drawing.Color.White;
+            this.btnGiaoDich.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnGiaoDich.Location = new System.Drawing.Point(85, 516);
             this.btnGiaoDich.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnGiaoDich.Name = "btnGiaoDich";
@@ -314,7 +314,7 @@
             this.btnHome.FlatAppearance.BorderSize = 0;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnHome.Location = new System.Drawing.Point(82, 183);
             this.btnHome.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnHome.Name = "btnHome";
@@ -332,7 +332,7 @@
             this.btnKiemTraSoDu.FlatAppearance.BorderSize = 0;
             this.btnKiemTraSoDu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTraSoDu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKiemTraSoDu.ForeColor = System.Drawing.Color.White;
+            this.btnKiemTraSoDu.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnKiemTraSoDu.Location = new System.Drawing.Point(83, 450);
             this.btnKiemTraSoDu.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnKiemTraSoDu.Name = "btnKiemTraSoDu";
@@ -346,7 +346,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.logo_removebg_preview;
-            this.pictureBox3.Location = new System.Drawing.Point(4, 58);
+            this.pictureBox3.Location = new System.Drawing.Point(4, 4);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(271, 96);
@@ -361,7 +361,7 @@
             this.btnRutTien.FlatAppearance.BorderSize = 0;
             this.btnRutTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRutTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRutTien.ForeColor = System.Drawing.Color.White;
+            this.btnRutTien.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnRutTien.Location = new System.Drawing.Point(85, 380);
             this.btnRutTien.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnRutTien.Name = "btnRutTien";
@@ -379,7 +379,7 @@
             this.btnChuyenKhoan.FlatAppearance.BorderSize = 0;
             this.btnChuyenKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChuyenKhoan.ForeColor = System.Drawing.Color.White;
+            this.btnChuyenKhoan.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnChuyenKhoan.Location = new System.Drawing.Point(83, 314);
             this.btnChuyenKhoan.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnChuyenKhoan.Name = "btnChuyenKhoan";
@@ -397,7 +397,7 @@
             this.btnGuiTien.FlatAppearance.BorderSize = 0;
             this.btnGuiTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuiTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuiTien.ForeColor = System.Drawing.Color.White;
+            this.btnGuiTien.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnGuiTien.Location = new System.Drawing.Point(83, 247);
             this.btnGuiTien.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnGuiTien.Name = "btnGuiTien";
@@ -508,12 +508,12 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("UTM Loko", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
             this.label9.Location = new System.Drawing.Point(223, 13);
             this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(632, 54);
+            this.label9.Size = new System.Drawing.Size(585, 38);
             this.label9.TabIndex = 1;
             this.label9.Text = "QUẢN LÝ TÀI KHOẢN NGÂN HÀNG";
             // 
