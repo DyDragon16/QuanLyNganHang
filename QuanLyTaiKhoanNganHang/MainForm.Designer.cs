@@ -56,6 +56,7 @@
             this.btnGuiTien = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.btnCloseAll = new System.Windows.Forms.Label();
             this.btnThongBao = new System.Windows.Forms.Button();
             this.btnMayTinh = new System.Windows.Forms.Button();
             this.btnSuaThongTinTaiKhoan = new System.Windows.Forms.Button();
@@ -146,6 +147,7 @@
             // 
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.menuStrip1);
+            this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel3.Location = new System.Drawing.Point(83, 582);
             this.panel3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.panel3.Name = "panel3";
@@ -162,7 +164,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(7, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(192, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(192, 26);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -176,7 +178,7 @@
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem});
             this.càiĐặtToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.càiĐặtToolStripMenuItem.Name = "càiĐặtToolStripMenuItem";
-            this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(73, 24);
+            this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(73, 22);
             this.càiĐặtToolStripMenuItem.Text = "Cài Đặt";
             // 
             // xóaTàiKhoảnToolStripMenuItem
@@ -289,6 +291,7 @@
             // btnGiaoDich
             // 
             this.btnGiaoDich.BackColor = System.Drawing.Color.Transparent;
+            this.btnGiaoDich.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGiaoDich.FlatAppearance.BorderSize = 0;
             this.btnGiaoDich.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGiaoDich.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -306,6 +309,7 @@
             // btnHome
             // 
             this.btnHome.BackColor = System.Drawing.Color.Transparent;
+            this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHome.FlatAppearance.BorderSize = 0;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -323,6 +327,7 @@
             // btnKiemTraSoDu
             // 
             this.btnKiemTraSoDu.BackColor = System.Drawing.Color.Transparent;
+            this.btnKiemTraSoDu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTraSoDu.FlatAppearance.BorderSize = 0;
             this.btnKiemTraSoDu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTraSoDu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -351,6 +356,7 @@
             // btnRutTien
             // 
             this.btnRutTien.BackColor = System.Drawing.Color.Transparent;
+            this.btnRutTien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRutTien.FlatAppearance.BorderSize = 0;
             this.btnRutTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRutTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -368,6 +374,7 @@
             // btnChuyenKhoan
             // 
             this.btnChuyenKhoan.BackColor = System.Drawing.Color.Transparent;
+            this.btnChuyenKhoan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnChuyenKhoan.FlatAppearance.BorderSize = 0;
             this.btnChuyenKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -385,6 +392,7 @@
             // btnGuiTien
             // 
             this.btnGuiTien.BackColor = System.Drawing.Color.Transparent;
+            this.btnGuiTien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuiTien.FlatAppearance.BorderSize = 0;
             this.btnGuiTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuiTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -414,6 +422,7 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.panel1.Controls.Add(this.btnCloseAll);
             this.panel1.Controls.Add(this.btnThongBao);
             this.panel1.Controls.Add(this.btnMayTinh);
             this.panel1.Controls.Add(this.btnSuaThongTinTaiKhoan);
@@ -422,19 +431,33 @@
             this.panel1.Location = new System.Drawing.Point(279, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1323, 68);
+            this.panel1.Size = new System.Drawing.Size(1260, 68);
             this.panel1.TabIndex = 3;
+            // 
+            // btnCloseAll
+            // 
+            this.btnCloseAll.AutoSize = true;
+            this.btnCloseAll.BackColor = System.Drawing.Color.OrangeRed;
+            this.btnCloseAll.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnCloseAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCloseAll.Location = new System.Drawing.Point(1211, 9);
+            this.btnCloseAll.Name = "btnCloseAll";
+            this.btnCloseAll.Size = new System.Drawing.Size(31, 29);
+            this.btnCloseAll.TabIndex = 54;
+            this.btnCloseAll.Text = "X";
+            this.btnCloseAll.Click += new System.EventHandler(this.btnCloseAll_Click);
             // 
             // btnThongBao
             // 
             this.btnThongBao.BackColor = System.Drawing.Color.Transparent;
             this.btnThongBao.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.zyro_image__2_;
             this.btnThongBao.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnThongBao.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnThongBao.FlatAppearance.BorderSize = 0;
             this.btnThongBao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThongBao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnThongBao.Location = new System.Drawing.Point(1003, 3);
+            this.btnThongBao.Location = new System.Drawing.Point(934, 4);
             this.btnThongBao.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnThongBao.Name = "btnThongBao";
             this.btnThongBao.Size = new System.Drawing.Size(74, 65);
@@ -448,11 +471,12 @@
             this.btnMayTinh.BackColor = System.Drawing.Color.Transparent;
             this.btnMayTinh.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.zyro_image__4_;
             this.btnMayTinh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMayTinh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMayTinh.FlatAppearance.BorderSize = 0;
             this.btnMayTinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMayTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMayTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnMayTinh.Location = new System.Drawing.Point(1088, 4);
+            this.btnMayTinh.Location = new System.Drawing.Point(1018, 4);
             this.btnMayTinh.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnMayTinh.Name = "btnMayTinh";
             this.btnMayTinh.Size = new System.Drawing.Size(57, 61);
@@ -466,11 +490,12 @@
             this.btnSuaThongTinTaiKhoan.BackColor = System.Drawing.Color.Transparent;
             this.btnSuaThongTinTaiKhoan.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.zyro_image__5_;
             this.btnSuaThongTinTaiKhoan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnSuaThongTinTaiKhoan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSuaThongTinTaiKhoan.FlatAppearance.BorderSize = 0;
             this.btnSuaThongTinTaiKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSuaThongTinTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaThongTinTaiKhoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnSuaThongTinTaiKhoan.Location = new System.Drawing.Point(1163, 3);
+            this.btnSuaThongTinTaiKhoan.Location = new System.Drawing.Point(1093, 3);
             this.btnSuaThongTinTaiKhoan.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnSuaThongTinTaiKhoan.Name = "btnSuaThongTinTaiKhoan";
             this.btnSuaThongTinTaiKhoan.Size = new System.Drawing.Size(82, 60);
@@ -496,15 +521,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SkyBlue;
-            this.ClientSize = new System.Drawing.Size(1602, 694);
+            this.ClientSize = new System.Drawing.Size(1539, 694);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MainForm_FormClosed);
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
@@ -561,5 +585,6 @@
         private System.Windows.Forms.Button btnMayTinh;
         private System.Windows.Forms.Button btnThongBao;
         private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label btnCloseAll;
     }
 }

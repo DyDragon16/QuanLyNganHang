@@ -129,7 +129,7 @@
             this.txtTaiKhoan.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.txtTaiKhoan.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTaiKhoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.txtTaiKhoan.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtTaiKhoan.Location = new System.Drawing.Point(95, 283);
             this.txtTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTaiKhoan.Name = "txtTaiKhoan";

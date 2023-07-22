@@ -475,9 +475,7 @@ namespace QuanLyTaiKhoanNganHang
 
         private void Thoat_Click(object sender, EventArgs e)
         {
-            FormDangNhap formDangNhap = new FormDangNhap();
-            this.Hide();
-            formDangNhap.Show();
+            this.Close();
         }
     }
 }

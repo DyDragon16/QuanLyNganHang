@@ -88,26 +88,13 @@ namespace QuanLyTaiKhoanNganHang
    
             FormHome formHome = new FormHome();
             formHome.MdiParent = this;
-            formHome.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formHome.Show();
-        }
-
-        private void MainForm_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            foreach (Form form in this.MdiChildren) 
-            { 
-                form.Close();
-            } 
-
-            // đồng hồ dừng khi form bị đóng.
-            timer.Stop();
         }
 
         private void btnGuiTien_Click(object sender, EventArgs e)
         {
             FormGuiTien formGuiTien = new FormGuiTien();
             formGuiTien.MdiParent = this;
-            formGuiTien.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formGuiTien.Show();
         }
 
@@ -115,7 +102,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormChuyenTien formChuyenTien =  new FormChuyenTien();
             formChuyenTien.MdiParent = this;
-            formChuyenTien.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formChuyenTien.Show();
         }
 
@@ -123,7 +109,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormRutTien formRutTien = new FormRutTien();
             formRutTien.MdiParent = this;
-            formRutTien.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formRutTien.Show();
         }
 
@@ -131,7 +116,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormHome formHome = new FormHome();
             formHome.MdiParent = this;
-            formHome.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formHome.Show();
         }
 
@@ -139,7 +123,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormGiaoDich formGiaoDich = new FormGiaoDich();
             formGiaoDich.MdiParent = this;
-            formGiaoDich.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formGiaoDich.Show();
         }
 
@@ -192,7 +175,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormXoaTaiKhoan formXoaTaiKhoan = new FormXoaTaiKhoan();
             formXoaTaiKhoan.MdiParent = this;
-            formXoaTaiKhoan.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formXoaTaiKhoan.Show();
         }
 
@@ -200,7 +182,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormThongTinGiaoDich formThongTinGiaoDich = new FormThongTinGiaoDich();
             formThongTinGiaoDich.MdiParent = this;
-            formThongTinGiaoDich.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formThongTinGiaoDich.Show();
         }
 
@@ -208,7 +189,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormSuaThongTinTaiKhoan formSuaThongTinTaiKhoan = new FormSuaThongTinTaiKhoan();
             formSuaThongTinTaiKhoan.MdiParent = this;
-            formSuaThongTinTaiKhoan.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formSuaThongTinTaiKhoan.Show();
         }
 
@@ -216,7 +196,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormKiemTraSoDu formKiemTraSoDu = new FormKiemTraSoDu();
             formKiemTraSoDu.MdiParent = this;
-            formKiemTraSoDu.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formKiemTraSoDu.Show();
         }
 
@@ -230,7 +209,6 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormThongTinGiaoDich formThongTinGiaoDich = new FormThongTinGiaoDich();
             formThongTinGiaoDich.MdiParent = this;
-            formThongTinGiaoDich.FormClosed += new FormClosedEventHandler(MainForm_FormClosed); // Đăng ký sự kiện FormClosed
             formThongTinGiaoDich.Show();
         }
 
@@ -238,6 +216,13 @@ namespace QuanLyTaiKhoanNganHang
         {
             FormMayTinh formMayTinh = new FormMayTinh();
             formMayTinh.Show();
+        }
+
+        private void btnCloseAll_Click(object sender, EventArgs e)
+        {
+            Close();
+            // đồng hồ dừng khi form bị đóng.
+            timer.Stop();
         }
     }
 }
