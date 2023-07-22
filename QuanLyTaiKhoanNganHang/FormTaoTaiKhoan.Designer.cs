@@ -471,14 +471,13 @@
             this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.DanhSachTaiKhoanGV);
             this.groupBox1.ForeColor = System.Drawing.Color.Blue;
-            this.groupBox1.Location = new System.Drawing.Point(0, 384);
+            this.groupBox1.Location = new System.Drawing.Point(0, 607);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(1373, 229);
             this.groupBox1.TabIndex = 100;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Danh Sách Tài Khoản Mới Tạo";
             // 
             // DanhSachTaiKhoanGV
             // 
@@ -646,6 +645,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.Thiết_kế_chưa_có_tên__4_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1373, 615);
             this.Controls.Add(this.HienMatKhau);
             this.Controls.Add(this.pictureBox2);
@@ -684,6 +685,7 @@
             this.Controls.Add(this.btnTaiAnh);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.ptbTaiAnh);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormTaoTaiKhoan";
