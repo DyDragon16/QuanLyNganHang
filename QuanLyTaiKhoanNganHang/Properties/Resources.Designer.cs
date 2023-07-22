@@ -173,6 +173,16 @@ namespace QuanLyTaiKhoanNganHang.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap naptien_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("naptien-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap payment {
             get {
                 object obj = ResourceManager.GetObject("payment", resourceCulture);
@@ -296,6 +306,16 @@ namespace QuanLyTaiKhoanNganHang.Properties {
         internal static System.Drawing.Bitmap Thiết_kế_chưa_có_tên__4_ {
             get {
                 object obj = ResourceManager.GetObject("Thiết kế chưa có tên (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap xuatexcel {
+            get {
+                object obj = ResourceManager.GetObject("xuatexcel", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

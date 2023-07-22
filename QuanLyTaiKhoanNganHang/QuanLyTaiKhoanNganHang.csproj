@@ -357,5 +357,11 @@
   <ItemGroup>
     <None Include="Resources\logo-home.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xuatexcel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\naptien-removebg-preview.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

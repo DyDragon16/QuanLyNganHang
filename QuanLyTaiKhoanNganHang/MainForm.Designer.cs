@@ -120,7 +120,7 @@
             this.lblDataTimeNow.AutoSize = true;
             this.lblDataTimeNow.BackColor = System.Drawing.Color.Transparent;
             this.lblDataTimeNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDataTimeNow.ForeColor = System.Drawing.Color.Black;
+            this.lblDataTimeNow.ForeColor = System.Drawing.Color.White;
             this.lblDataTimeNow.Location = new System.Drawing.Point(27, 10);
             this.lblDataTimeNow.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblDataTimeNow.Name = "lblDataTimeNow";
@@ -134,12 +134,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.label2.Location = new System.Drawing.Point(32, 25);
+            this.label2.Font = new System.Drawing.Font("UTM Loko", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(44, 18);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(205, 29);
+            this.label2.Size = new System.Drawing.Size(189, 32);
             this.label2.TabIndex = 124;
             this.label2.Text = "Ngân Hàng SMB";
             // 
@@ -177,6 +177,7 @@
             this.đăngXuấtToolStripMenuItem,
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem});
             this.càiĐặtToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.càiĐặtToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.càiĐặtToolStripMenuItem.Name = "càiĐặtToolStripMenuItem";
             this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(73, 22);
             this.càiĐặtToolStripMenuItem.Text = "Cài Đặt";
@@ -295,7 +296,7 @@
             this.btnGiaoDich.FlatAppearance.BorderSize = 0;
             this.btnGiaoDich.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGiaoDich.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGiaoDich.ForeColor = System.Drawing.Color.Black;
+            this.btnGiaoDich.ForeColor = System.Drawing.Color.White;
             this.btnGiaoDich.Location = new System.Drawing.Point(85, 516);
             this.btnGiaoDich.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnGiaoDich.Name = "btnGiaoDich";
@@ -313,8 +314,8 @@
             this.btnHome.FlatAppearance.BorderSize = 0;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.Color.Black;
-            this.btnHome.Location = new System.Drawing.Point(83, 183);
+            this.btnHome.ForeColor = System.Drawing.Color.White;
+            this.btnHome.Location = new System.Drawing.Point(82, 183);
             this.btnHome.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(188, 46);
@@ -331,7 +332,7 @@
             this.btnKiemTraSoDu.FlatAppearance.BorderSize = 0;
             this.btnKiemTraSoDu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTraSoDu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKiemTraSoDu.ForeColor = System.Drawing.Color.Black;
+            this.btnKiemTraSoDu.ForeColor = System.Drawing.Color.White;
             this.btnKiemTraSoDu.Location = new System.Drawing.Point(83, 450);
             this.btnKiemTraSoDu.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnKiemTraSoDu.Name = "btnKiemTraSoDu";
@@ -360,7 +361,7 @@
             this.btnRutTien.FlatAppearance.BorderSize = 0;
             this.btnRutTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRutTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRutTien.ForeColor = System.Drawing.Color.Black;
+            this.btnRutTien.ForeColor = System.Drawing.Color.White;
             this.btnRutTien.Location = new System.Drawing.Point(85, 380);
             this.btnRutTien.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnRutTien.Name = "btnRutTien";
@@ -378,7 +379,7 @@
             this.btnChuyenKhoan.FlatAppearance.BorderSize = 0;
             this.btnChuyenKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChuyenKhoan.ForeColor = System.Drawing.Color.Black;
+            this.btnChuyenKhoan.ForeColor = System.Drawing.Color.White;
             this.btnChuyenKhoan.Location = new System.Drawing.Point(83, 314);
             this.btnChuyenKhoan.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnChuyenKhoan.Name = "btnChuyenKhoan";
@@ -396,7 +397,7 @@
             this.btnGuiTien.FlatAppearance.BorderSize = 0;
             this.btnGuiTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuiTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuiTien.ForeColor = System.Drawing.Color.Black;
+            this.btnGuiTien.ForeColor = System.Drawing.Color.White;
             this.btnGuiTien.Location = new System.Drawing.Point(83, 247);
             this.btnGuiTien.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnGuiTien.Name = "btnGuiTien";
@@ -507,12 +508,12 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Black;
-            this.label9.Location = new System.Drawing.Point(264, 16);
+            this.label9.Font = new System.Drawing.Font("UTM Loko", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.White;
+            this.label9.Location = new System.Drawing.Point(223, 13);
             this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(603, 39);
+            this.label9.Size = new System.Drawing.Size(632, 54);
             this.label9.TabIndex = 1;
             this.label9.Text = "QUẢN LÝ TÀI KHOẢN NGÂN HÀNG";
             // 
@@ -524,6 +525,7 @@
             this.ClientSize = new System.Drawing.Size(1539, 694);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Cursor = System.Windows.Forms.Cursors.Hand;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);

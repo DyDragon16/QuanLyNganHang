@@ -168,7 +168,7 @@ namespace QuanLyTaiKhoanNganHang
                     command.Parameters.AddWithValue("@TenTaiKhoan", txtTenTaiKhoan.Text);
                     int count = Convert.ToInt32(command.ExecuteScalar());
 
-                    if (count > 0) // Kiểm tra xem mã bệnh nhân đã tồn tại hay chưa
+                    if (count > 0) // Kiểm tra xem mã tài khoản đã tồn tại hay chưa
                     {
                         query = "UPDATE SoDuTaiKhoan SET SoTienHienTai = @SoTienHienTai  WHERE TenTaiKhoan = @TenTaiKhoan";
                         command = new SqlCommand(query, Con);
@@ -181,7 +181,8 @@ namespace QuanLyTaiKhoanNganHang
                         command.ExecuteNonQuery(); // thực hiện câu truy vấn
 
                         string guitien = "Nạp Tiền Vào Tài Khoản (" + txtTenTaiKhoan.Text + ") Thành Công.\n" +
-                            "\n\n\t- Hóa Đơn: " +
+                            //tạo mã hoá đơn ngẫu nhiên
+                            "\n\n\t+ Mã Hoá Đơn: " + RandomMaHoaDon() +
                             "\n\n\t+ Tài Khoản: " + txtSoTaiKhoan.Text +
                             "\n\n\t+ Số Tiền: " + SoTienMuonGui +
                             "\n\n\t+ Email: " + txtDiaChiEmail.Text +
@@ -210,7 +211,7 @@ namespace QuanLyTaiKhoanNganHang
 
 
                         string guitien = "Nạp Tiền Vào Tài Khoản (" + txtTenTaiKhoan.Text + ") Thành Công.\n" +
-                            "\n\n\t- Hóa Đơn: " +
+                            "\n\n\t+ Mã Hoá Đơn: " + RandomMaHoaDon() +
                             "\n\n\t+ Tài Khoản: " + txtSoTaiKhoan.Text +
                             "\n\n\t+ Số Tiền: " + SoTienMuonGui +
                             "\n\n\t+ Email: " + txtDiaChiEmail.Text +
@@ -223,12 +224,23 @@ namespace QuanLyTaiKhoanNganHang
                     }
                 }
 
-
                 Con.Close();
                 ConnecSoDuTaiKhoan();
                 ThongTinGiaoDichGuiTien();
             }
 
+        }
+
+        //tạo hàm tạo mã hoá đơn ngẫu nhiên
+        public string RandomMaHoaDon()
+        {
+            Random random = new Random();
+            string r = "";
+            for (int i = 0; i < 10; i++)
+            {
+                r += random.Next(0, 9).ToString();
+            }
+            return r;
         }
 
         private void txtSoTienHienTai_TextChanged(object sender, EventArgs e)
@@ -353,7 +365,6 @@ namespace QuanLyTaiKhoanNganHang
         private void btnInThongTin_Click(object sender, EventArgs e)
         {
             DataTable dataTable = new DataTable();
-
             DataColumn col1 = new DataColumn("TenTaiKhoan");
             DataColumn col2 = new DataColumn("SoTaiKhoan");
             DataColumn col3 = new DataColumn("CCCD");
@@ -422,7 +433,7 @@ namespace QuanLyTaiKhoanNganHang
                     }
                     else
                     {
-                        txtSoTienHienTai.Text = "000000";
+                        txtSoTienHienTai.Text = "000000";//
                     }
                     reader.Close();
                     command.Dispose();
