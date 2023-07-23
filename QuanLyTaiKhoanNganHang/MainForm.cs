@@ -93,6 +93,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnGuiTien_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormGuiTien formGuiTien = new FormGuiTien();
             formGuiTien.MdiParent = this;
             formGuiTien.Show();
@@ -100,6 +104,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnChuyenKhoan_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormChuyenTien formChuyenTien =  new FormChuyenTien();
             formChuyenTien.MdiParent = this;
             formChuyenTien.Show();
@@ -107,6 +115,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnRutTien_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormRutTien formRutTien = new FormRutTien();
             formRutTien.MdiParent = this;
             formRutTien.Show();
@@ -114,6 +126,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnHome_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormHome formHome = new FormHome();
             formHome.MdiParent = this;
             formHome.Show();
@@ -121,6 +137,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnGiaoDich_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormGiaoDich formGiaoDich = new FormGiaoDich();
             formGiaoDich.MdiParent = this;
             formGiaoDich.Show();
@@ -135,7 +155,7 @@ namespace QuanLyTaiKhoanNganHang
 
             if (dialog == DialogResult.Yes)
             {
-                this.Close();
+                this.Hide();
                 FormDangNhap form = new FormDangNhap();
                 form.Show();
             }
@@ -150,7 +170,7 @@ namespace QuanLyTaiKhoanNganHang
 
             if (dialog == DialogResult.Yes)
             {
-                this.Close();
+                this.Hide();
                 FormDangNhap form = new FormDangNhap();
                 form.Show();
             }
@@ -165,7 +185,7 @@ namespace QuanLyTaiKhoanNganHang
 
             if (dialog == DialogResult.Yes)
             {
-                this.Close();
+                this.Hide();
                 FormDangNhap form = new FormDangNhap();
                 form.Show();
             }
@@ -173,6 +193,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void xóaTàiKhoảnToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormXoaTaiKhoan formXoaTaiKhoan = new FormXoaTaiKhoan();
             formXoaTaiKhoan.MdiParent = this;
             formXoaTaiKhoan.Show();
@@ -180,6 +204,10 @@ namespace QuanLyTaiKhoanNganHang
 
         public void xemChiTiếtThôngTinToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormThongTinGiaoDich formThongTinGiaoDich = new FormThongTinGiaoDich();
             formThongTinGiaoDich.MdiParent = this;
             formThongTinGiaoDich.Show();
@@ -187,6 +215,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnSuaThongTinTaiKhoan_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormSuaThongTinTaiKhoan formSuaThongTinTaiKhoan = new FormSuaThongTinTaiKhoan();
             formSuaThongTinTaiKhoan.MdiParent = this;
             formSuaThongTinTaiKhoan.Show();
@@ -194,6 +226,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnKiemTraSoDu_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormKiemTraSoDu formKiemTraSoDu = new FormKiemTraSoDu();
             formKiemTraSoDu.MdiParent = this;
             formKiemTraSoDu.Show();
@@ -207,6 +243,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnThongBao_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             FormThongTinGiaoDich formThongTinGiaoDich = new FormThongTinGiaoDich();
             formThongTinGiaoDich.MdiParent = this;
             formThongTinGiaoDich.Show();
@@ -223,9 +263,9 @@ namespace QuanLyTaiKhoanNganHang
             foreach (Form form in this.MdiChildren)
             {
                 form.Close();
-                this.Close();
             }
-
+            this.Close();
+            Close();
             // đồng hồ dừng khi form bị đóng.
             timer.Stop();
         }

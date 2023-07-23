@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDangNhap));
-            this.btnThoatChuongTrinh = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnDangNhap = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
@@ -46,20 +45,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HienThiMatKhau)).BeginInit();
             this.SuspendLayout();
-            // 
-            // btnThoatChuongTrinh
-            // 
-            this.btnThoatChuongTrinh.FlatAppearance.BorderSize = 0;
-            this.btnThoatChuongTrinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnThoatChuongTrinh.Font = new System.Drawing.Font("Microsoft YaHei UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnThoatChuongTrinh.Location = new System.Drawing.Point(645, 2);
-            this.btnThoatChuongTrinh.Margin = new System.Windows.Forms.Padding(4);
-            this.btnThoatChuongTrinh.Name = "btnThoatChuongTrinh";
-            this.btnThoatChuongTrinh.Size = new System.Drawing.Size(47, 48);
-            this.btnThoatChuongTrinh.TabIndex = 40;
-            this.btnThoatChuongTrinh.Text = "X";
-            this.btnThoatChuongTrinh.UseVisualStyleBackColor = true;
-            this.btnThoatChuongTrinh.Click += new System.EventHandler(this.btnThoatChuongTrinh_Click);
             // 
             // pictureBox1
             // 
@@ -245,7 +230,6 @@
             this.Controls.Add(this.label4);
             this.Controls.Add(this.txtMatKhau);
             this.Controls.Add(this.txtTaiKhoan);
-            this.Controls.Add(this.btnThoatChuongTrinh);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.KeyPreview = true;
@@ -262,7 +246,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button btnThoatChuongTrinh;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btnDangNhap;
         private System.Windows.Forms.Label label5;

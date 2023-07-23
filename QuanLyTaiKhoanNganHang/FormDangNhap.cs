@@ -44,8 +44,8 @@ namespace QuanLyTaiKhoanNganHang
             else if (taiKhoan == "admin" && matKhau == "admin")
             {
                 FormBatDau formBatDau = new FormBatDau();
-                this.Hide();
                 formBatDau.Show();
+                this.Hide();
             }
             else
             {
@@ -53,19 +53,14 @@ namespace QuanLyTaiKhoanNganHang
                 if (new Modify().TaiKhoans(query).Count != 0)
                 {
                     FormBatDau formBatDau = new FormBatDau();
-                    this.Hide();
                     formBatDau.Show();
+                    this.Hide();
                 }
                 else
                 {
                     MessageBox.Show("Tài khoản đăng nhập không đúng.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
             }
-        }
-
-        private void btnThoatChuongTrinh_Click(object sender, EventArgs e)
-        {
-            Close();
         }
 
         private bool isPasswordVisible = false; // Biến để theo dõi trạng thái hiển thị mật khẩu
@@ -91,7 +86,8 @@ namespace QuanLyTaiKhoanNganHang
         private void txtQuenMatKhau_Click(object sender, EventArgs e)
         {
             FormQuenMatKhau formQuenMatKhau = new FormQuenMatKhau();
-            this.Hide();
+            formQuenMatKhau.MdiParent = this;
+            this.Close();
             formQuenMatKhau.Show();
         }
 
@@ -114,7 +110,8 @@ namespace QuanLyTaiKhoanNganHang
         }
         private void lblLinkĐangKy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-           FormTaoTaiKhoan formTaoTaiKhoan = new FormTaoTaiKhoan();
+            FormTaoTaiKhoan formTaoTaiKhoan = new FormTaoTaiKhoan();
+            formTaoTaiKhoan.MdiParent = this;
             formTaoTaiKhoan.Show();
         }
     
@@ -125,6 +122,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnCloseDN_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             Close();
         }
     }

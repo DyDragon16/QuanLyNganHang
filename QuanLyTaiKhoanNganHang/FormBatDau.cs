@@ -30,23 +30,18 @@ namespace QuanLyTaiKhoanNganHang
             timer.Start();
         }
 
-        private void timer1_Tick_1(object sender, EventArgs e)
-        {
-
-        }
-
         int startpos = 0; // vị trí bắt đầu thời gian là 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
             startpos += 1;
             MyprogressBar.Value = startpos;
-            if (MyprogressBar.Value == 100)
+            if (MyprogressBar.Value == 70)
             {
                 MyprogressBar.Value = 0;
                 timer1.Stop();
-                MainForm log = new MainForm();
-                log.Show();
-                this.Hide();
+                this.Close();
+                MainForm main = new MainForm();
+                main.Show();
             }
         }
 
@@ -61,7 +56,7 @@ namespace QuanLyTaiKhoanNganHang
 
         private int currentIndex = 0;
         private Timer timer;
-        private int delay = 3000; // Khoảng thời gian (milisecond) giữa mỗi dòng chữ
+        private int delay = 2000; // Khoảng thời gian (milisecond) giữa mỗi dòng chữ
 
         private void Timer_Tick(object sender, EventArgs e)
         {

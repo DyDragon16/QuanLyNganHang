@@ -139,7 +139,7 @@
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(525, 225);
+            this.groupBox1.Size = new System.Drawing.Size(487, 225);
             this.groupBox1.TabIndex = 73;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Tìm kiếm tài khoản";
@@ -148,7 +148,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(340, 147);
+            this.pictureBox5.Location = new System.Drawing.Point(323, 147);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(47, 42);
@@ -161,7 +161,7 @@
             this.btnKiemTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnKiemTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTra.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnKiemTra.Location = new System.Drawing.Point(237, 141);
+            this.btnKiemTra.Location = new System.Drawing.Point(220, 141);
             this.btnKiemTra.Margin = new System.Windows.Forms.Padding(4);
             this.btnKiemTra.Name = "btnKiemTra";
             this.btnKiemTra.Size = new System.Drawing.Size(156, 54);
@@ -180,7 +180,7 @@
             this.btnMayTinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMayTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMayTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnMayTinh.Location = new System.Drawing.Point(174, 143);
+            this.btnMayTinh.Location = new System.Drawing.Point(157, 143);
             this.btnMayTinh.Margin = new System.Windows.Forms.Padding(4);
             this.btnMayTinh.Name = "btnMayTinh";
             this.btnMayTinh.Size = new System.Drawing.Size(47, 50);
@@ -192,7 +192,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(460, 97);
+            this.pictureBox4.Location = new System.Drawing.Point(429, 93);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(41, 28);
@@ -203,7 +203,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(460, 54);
+            this.pictureBox2.Location = new System.Drawing.Point(429, 50);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(41, 28);
@@ -215,7 +215,7 @@
             // 
             this.cbbTenTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbTenTaiKhoan.FormattingEnabled = true;
-            this.cbbTenTaiKhoan.Location = new System.Drawing.Point(187, 96);
+            this.cbbTenTaiKhoan.Location = new System.Drawing.Point(156, 92);
             this.cbbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTenTaiKhoan.Name = "cbbTenTaiKhoan";
             this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 28);
@@ -225,7 +225,7 @@
             // 
             this.cbbSoTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbbSoTaiKhoan.FormattingEnabled = true;
-            this.cbbSoTaiKhoan.Location = new System.Drawing.Point(187, 53);
+            this.cbbSoTaiKhoan.Location = new System.Drawing.Point(156, 49);
             this.cbbSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTaiKhoan.Name = "cbbSoTaiKhoan";
             this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 28);
@@ -647,11 +647,11 @@
             this.groupBox3.Controls.Add(this.SoDuTaiKhoanGV);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox3.Location = new System.Drawing.Point(552, 82);
+            this.groupBox3.Location = new System.Drawing.Point(528, 82);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(687, 247);
+            this.groupBox3.Size = new System.Drawing.Size(712, 247);
             this.groupBox3.TabIndex = 75;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh sách ";
@@ -666,7 +666,7 @@
             this.SoDuTaiKhoanGV.Margin = new System.Windows.Forms.Padding(4);
             this.SoDuTaiKhoanGV.Name = "SoDuTaiKhoanGV";
             this.SoDuTaiKhoanGV.RowHeadersWidth = 51;
-            this.SoDuTaiKhoanGV.Size = new System.Drawing.Size(688, 212);
+            this.SoDuTaiKhoanGV.Size = new System.Drawing.Size(712, 212);
             this.SoDuTaiKhoanGV.TabIndex = 0;
             // 
             // FormGuiTien

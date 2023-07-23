@@ -475,6 +475,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void Thoat_Click(object sender, EventArgs e)
         {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
             this.Close();
         }
     }

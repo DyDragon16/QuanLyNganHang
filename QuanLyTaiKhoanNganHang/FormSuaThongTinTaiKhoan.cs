@@ -103,7 +103,7 @@ namespace QuanLyTaiKhoanNganHang
 
         private void picBExitRed_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            this.Close();
         }
 
         private void txtMatKhauHienTai_TextChanged(object sender, EventArgs e)
