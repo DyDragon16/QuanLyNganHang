@@ -80,6 +80,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.pictureBox5);
             this.groupBox1.Controls.Add(this.btnKiemTraSoDuTK);
             this.groupBox1.Controls.Add(this.pictureBox4);
@@ -191,6 +192,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.button4);
             this.groupBox2.Controls.Add(this.txtLTK);
             this.groupBox2.Controls.Add(this.button9);
@@ -490,7 +492,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Gray;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.label6);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
@@ -515,17 +517,18 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("UTM Kona KT", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(533, 11);
+            this.label6.Location = new System.Drawing.Point(345, 6);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(306, 45);
+            this.label6.Size = new System.Drawing.Size(396, 42);
             this.label6.TabIndex = 1;
             this.label6.Text = "Kiểm Tra Số Dư";
             // 
             // MayTinh
             // 
+            this.MayTinh.BackColor = System.Drawing.Color.Transparent;
             this.MayTinh.Image = ((System.Drawing.Image)(resources.GetObject("MayTinh.Image")));
             this.MayTinh.Location = new System.Drawing.Point(281, 379);
             this.MayTinh.Margin = new System.Windows.Forms.Padding(4);
@@ -538,7 +541,8 @@
             // 
             // pictureBox6
             // 
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox6.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.logo_removebg_preview;
             this.pictureBox6.Location = new System.Drawing.Point(16, 379);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox6.Name = "pictureBox6";
@@ -551,13 +555,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.Thiết_kế_chưa_có_tên__4_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1252, 620);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.MayTinh);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.HelpButton = true;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormKiemTraSoDu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

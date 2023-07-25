@@ -76,6 +76,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.GiaoDichGV);
             this.groupBox1.Controls.Add(this.label12);
             this.groupBox1.Controls.Add(this.ptbTaiAnh);
@@ -271,7 +272,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Gray;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.lblDataTimeNow);
             this.panel1.Controls.Add(this.label2);
@@ -279,7 +280,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1251, 59);
+            this.panel1.Size = new System.Drawing.Size(1251, 93);
             this.panel1.TabIndex = 73;
             // 
             // pictureBox3
@@ -297,9 +298,9 @@
             // lblDataTimeNow
             // 
             this.lblDataTimeNow.AutoSize = true;
-            this.lblDataTimeNow.BackColor = System.Drawing.Color.Gray;
+            this.lblDataTimeNow.BackColor = System.Drawing.Color.Transparent;
             this.lblDataTimeNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDataTimeNow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblDataTimeNow.ForeColor = System.Drawing.Color.Black;
             this.lblDataTimeNow.Location = new System.Drawing.Point(955, 24);
             this.lblDataTimeNow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDataTimeNow.Name = "lblDataTimeNow";
@@ -310,17 +311,18 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("UTM Kona KT", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(453, 11);
+            this.label2.Location = new System.Drawing.Point(302, 9);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(366, 45);
+            this.label2.Size = new System.Drawing.Size(516, 42);
             this.label2.TabIndex = 1;
             this.label2.Text = "Thông Tin Giao Dịch";
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.pictureBox2);
             this.groupBox2.Controls.Add(this.pictureBox5);
             this.groupBox2.Controls.Add(this.btnLuuThongTinGiaoDich);
@@ -467,12 +469,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.Thiết_kế_chưa_có_tên__4_;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1251, 615);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.txtNgayGiaoDich);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormGiaoDich";
