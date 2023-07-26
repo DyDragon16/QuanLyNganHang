@@ -73,6 +73,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtSoTienChuSo = new System.Windows.Forms.TextBox();
             this.cbbDenTaiKhoan = new System.Windows.Forms.ComboBox();
+            this.label13 = new System.Windows.Forms.Label();
+            this.txtNoidungchuyentien = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -247,7 +249,7 @@
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(663, 247);
+            this.groupBox3.Size = new System.Drawing.Size(663, 218);
             this.groupBox3.TabIndex = 76;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh sách ";
@@ -507,7 +509,7 @@
             "800000000",
             "900000000",
             "1000000000"});
-            this.txtSoTienMuonChuyen.Location = new System.Drawing.Point(172, 193);
+            this.txtSoTienMuonChuyen.Location = new System.Drawing.Point(172, 175);
             this.txtSoTienMuonChuyen.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoTienMuonChuyen.Name = "txtSoTienMuonChuyen";
             this.txtSoTienMuonChuyen.Size = new System.Drawing.Size(282, 28);
@@ -519,7 +521,7 @@
             this.btnChuyenTien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnChuyenTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenTien.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnChuyenTien.Location = new System.Drawing.Point(473, 156);
+            this.btnChuyenTien.Location = new System.Drawing.Point(473, 164);
             this.btnChuyenTien.Margin = new System.Windows.Forms.Padding(4);
             this.btnChuyenTien.Name = "btnChuyenTien";
             this.btnChuyenTien.Size = new System.Drawing.Size(181, 49);
@@ -533,7 +535,7 @@
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(8, 201);
+            this.label7.Location = new System.Drawing.Point(8, 183);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(145, 18);
@@ -579,6 +581,8 @@
             // groupBox4
             // 
             this.groupBox4.BackColor = System.Drawing.Color.Transparent;
+            this.groupBox4.Controls.Add(this.txtNoidungchuyentien);
+            this.groupBox4.Controls.Add(this.label13);
             this.groupBox4.Controls.Add(this.btnMayTinh);
             this.groupBox4.Controls.Add(this.pictureBox4);
             this.groupBox4.Controls.Add(this.label11);
@@ -594,11 +598,11 @@
             this.groupBox4.Controls.Add(this.txtSoTienHienTai);
             this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.groupBox4.Location = new System.Drawing.Point(567, 335);
+            this.groupBox4.Location = new System.Drawing.Point(567, 310);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox4.Size = new System.Drawing.Size(663, 252);
+            this.groupBox4.Size = new System.Drawing.Size(663, 277);
             this.groupBox4.TabIndex = 84;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Chuyển Tiền Đến Tài Khoản";
@@ -612,7 +616,7 @@
             this.btnMayTinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMayTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMayTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnMayTinh.Location = new System.Drawing.Point(484, 159);
+            this.btnMayTinh.Location = new System.Drawing.Point(484, 167);
             this.btnMayTinh.Margin = new System.Windows.Forms.Padding(4);
             this.btnMayTinh.Name = "btnMayTinh";
             this.btnMayTinh.Size = new System.Drawing.Size(37, 43);
@@ -659,7 +663,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(8, 153);
+            this.label10.Location = new System.Drawing.Point(8, 135);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(112, 18);
@@ -681,11 +685,28 @@
             // cbbDenTaiKhoan
             // 
             this.cbbDenTaiKhoan.FormattingEnabled = true;
-            this.cbbDenTaiKhoan.Location = new System.Drawing.Point(172, 145);
+            this.cbbDenTaiKhoan.Location = new System.Drawing.Point(172, 127);
             this.cbbDenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbDenTaiKhoan.Name = "cbbDenTaiKhoan";
             this.cbbDenTaiKhoan.Size = new System.Drawing.Size(282, 28);
             this.cbbDenTaiKhoan.TabIndex = 84;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(8, 232);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(75, 18);
+            this.label13.TabIndex = 91;
+            this.label13.Text = "Nội dung";
+            // 
+            // txtNoidungchuyentien
+            // 
+            this.txtNoidungchuyentien.Location = new System.Drawing.Point(172, 224);
+            this.txtNoidungchuyentien.Name = "txtNoidungchuyentien";
+            this.txtNoidungchuyentien.Size = new System.Drawing.Size(282, 26);
+            this.txtNoidungchuyentien.TabIndex = 92;
             // 
             // FormChuyenTien
             // 
@@ -772,5 +793,7 @@
         private System.Windows.Forms.Button btnMayTinh;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.TextBox txtNoidungchuyentien;
+        private System.Windows.Forms.Label label13;
     }
 }
