@@ -45,21 +45,13 @@ namespace QuanLyTaiKhoanNganHang
             {
                 FormBatDau formBatDau = new FormBatDau();
                 formBatDau.Show();
+                txtTaiKhoan.Text = "";
+                txtMatKhau.Text = "";
                 this.Hide();
             }
             else
             {
-                string query = "SELECT * FROM TaiKhoan WHERE TenTaiKhoan = '" + taiKhoan + "' AND MatKhau = '" + matKhau + "'";
-                if (new Modify().TaiKhoans(query).Count != 0)
-                {
-                    FormBatDau formBatDau = new FormBatDau();
-                    formBatDau.Show();
-                    this.Hide();
-                }
-                else
-                {
-                    MessageBox.Show("Tài khoản đăng nhập không đúng.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                }
+                MessageBox.Show("Tài khoản đăng nhập không đúng.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 
@@ -120,11 +112,7 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnCloseDN_Click(object sender, EventArgs e)
         {
-            foreach (Form form in this.MdiChildren)
-            {
-                form.Close();
-            }
-            Close();
+            this.Close();
         }
     }
 }

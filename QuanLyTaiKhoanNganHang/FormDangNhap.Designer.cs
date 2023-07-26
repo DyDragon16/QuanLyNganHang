@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDangNhap));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnDangNhap = new System.Windows.Forms.Button();
@@ -42,6 +43,7 @@
             this.lblLinkĐangKy = new System.Windows.Forms.LinkLabel();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.btnCloseDN = new System.Windows.Forms.Button();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.HienThiMatKhau)).BeginInit();
             this.SuspendLayout();
@@ -259,5 +261,6 @@
         private System.Windows.Forms.LinkLabel lblLinkĐangKy;
         private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.Button btnCloseDN;
+        private System.Windows.Forms.Timer timer1;
     }
 }
