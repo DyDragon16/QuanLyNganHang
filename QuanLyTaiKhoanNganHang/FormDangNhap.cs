@@ -86,7 +86,6 @@ namespace QuanLyTaiKhoanNganHang
         private void txtQuenMatKhau_Click(object sender, EventArgs e)
         {
             FormQuenMatKhau formQuenMatKhau = new FormQuenMatKhau();
-            formQuenMatKhau.MdiParent = this;
             this.Close();
             formQuenMatKhau.Show();
         }
@@ -111,7 +110,6 @@ namespace QuanLyTaiKhoanNganHang
         private void lblLinkĐangKy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             FormTaoTaiKhoan formTaoTaiKhoan = new FormTaoTaiKhoan();
-            formTaoTaiKhoan.MdiParent = this;
             formTaoTaiKhoan.Show();
         }
     
