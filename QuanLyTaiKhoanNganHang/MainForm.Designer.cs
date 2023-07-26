@@ -525,7 +525,7 @@
             this.ClientSize = new System.Drawing.Size(1539, 694);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
-            this.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.Cursor = System.Windows.Forms.Cursors.Default;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MainMenuStrip = this.menuStrip1;
             this.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
