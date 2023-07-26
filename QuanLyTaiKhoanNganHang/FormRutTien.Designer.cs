@@ -81,6 +81,7 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.BackColor = System.Drawing.Color.Transparent;
             this.groupBox1.Controls.Add(this.pictureBox5);
             this.groupBox1.Controls.Add(this.pictureBox4);
             this.groupBox1.Controls.Add(this.pictureBox2);
@@ -91,9 +92,9 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(28, 80);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(510, 247);
             this.groupBox1.TabIndex = 75;
             this.groupBox1.TabStop = false;
@@ -104,7 +105,7 @@
             this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
             this.pictureBox5.Location = new System.Drawing.Point(271, 174);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(47, 42);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -115,7 +116,7 @@
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(448, 57);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(41, 28);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -126,7 +127,7 @@
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(448, 101);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(41, 28);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -138,7 +139,7 @@
             this.cbbTenTaiKhoan.ForeColor = System.Drawing.Color.Black;
             this.cbbTenTaiKhoan.FormattingEnabled = true;
             this.cbbTenTaiKhoan.Location = new System.Drawing.Point(174, 101);
-            this.cbbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTenTaiKhoan.Name = "cbbTenTaiKhoan";
             this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 28);
             this.cbbTenTaiKhoan.TabIndex = 28;
@@ -148,7 +149,7 @@
             this.cbbSoTaiKhoan.ForeColor = System.Drawing.Color.Black;
             this.cbbSoTaiKhoan.FormattingEnabled = true;
             this.cbbSoTaiKhoan.Location = new System.Drawing.Point(174, 59);
-            this.cbbSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTaiKhoan.Name = "cbbSoTaiKhoan";
             this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 28);
             this.cbbSoTaiKhoan.TabIndex = 27;
@@ -158,7 +159,7 @@
             this.btnKiemTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btnKiemTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTra.Location = new System.Drawing.Point(164, 167);
-            this.btnKiemTra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnKiemTra.Margin = new System.Windows.Forms.Padding(4);
             this.btnKiemTra.Name = "btnKiemTra";
             this.btnKiemTra.Size = new System.Drawing.Size(167, 54);
             this.btnKiemTra.TabIndex = 26;
@@ -191,13 +192,15 @@
             // 
             // groupBox3
             // 
+            this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.SoDuTaiKhoanGV);
-            this.groupBox3.ForeColor = System.Drawing.Color.Blue;
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.ForeColor = System.Drawing.Color.Black;
             this.groupBox3.Location = new System.Drawing.Point(28, 353);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox3.Size = new System.Drawing.Size(510, 247);
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Size = new System.Drawing.Size(615, 247);
             this.groupBox3.TabIndex = 77;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Danh sách ";
@@ -208,23 +211,24 @@
             this.SoDuTaiKhoanGV.BackgroundColor = System.Drawing.SystemColors.Control;
             this.SoDuTaiKhoanGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.SoDuTaiKhoanGV.Location = new System.Drawing.Point(2, 36);
-            this.SoDuTaiKhoanGV.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.SoDuTaiKhoanGV.Margin = new System.Windows.Forms.Padding(4);
             this.SoDuTaiKhoanGV.Name = "SoDuTaiKhoanGV";
             this.SoDuTaiKhoanGV.RowHeadersWidth = 51;
-            this.SoDuTaiKhoanGV.Size = new System.Drawing.Size(502, 212);
+            this.SoDuTaiKhoanGV.Size = new System.Drawing.Size(605, 212);
             this.SoDuTaiKhoanGV.TabIndex = 0;
             this.SoDuTaiKhoanGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.SoDuTaiKhoanGV_CellContentClick);
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Gray;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1252, 59);
+            this.panel1.Size = new System.Drawing.Size(1252, 72);
             this.panel1.TabIndex = 79;
             // 
             // pictureBox3
@@ -232,7 +236,7 @@
             this.pictureBox3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.ErrorImage")));
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
             this.pictureBox3.Location = new System.Drawing.Point(1385, 4);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(48, 43);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -242,12 +246,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("MV Boli", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(453, 11);
+            this.label2.Location = new System.Drawing.Point(363, 19);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(515, 45);
+            this.label2.Size = new System.Drawing.Size(437, 38);
             this.label2.TabIndex = 1;
             this.label2.Text = "Rút Tiền - Trong Tài Khoản";
             // 
@@ -313,15 +317,15 @@
             "900000000",
             "1000000000"});
             this.cbbSoTienCanRut.Location = new System.Drawing.Point(212, 59);
-            this.cbbSoTienCanRut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cbbSoTienCanRut.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTienCanRut.Name = "cbbSoTienCanRut";
-            this.cbbSoTienCanRut.Size = new System.Drawing.Size(264, 24);
+            this.cbbSoTienCanRut.Size = new System.Drawing.Size(264, 33);
             this.cbbSoTienCanRut.TabIndex = 82;
             // 
             // lblDataTimeNow
             // 
             this.lblDataTimeNow.AutoSize = true;
-            this.lblDataTimeNow.BackColor = System.Drawing.SystemColors.Control;
+            this.lblDataTimeNow.BackColor = System.Drawing.Color.Transparent;
             this.lblDataTimeNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDataTimeNow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.lblDataTimeNow.Location = new System.Drawing.Point(208, 119);
@@ -333,6 +337,7 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.BackColor = System.Drawing.Color.Transparent;
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.Controls.Add(this.btnMayTinh);
             this.groupBox2.Controls.Add(this.btnRutTien);
@@ -340,10 +345,11 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.lblDataTimeNow);
             this.groupBox2.Controls.Add(this.cbbSoTienCanRut);
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(546, 80);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox2.Size = new System.Drawing.Size(693, 247);
             this.groupBox2.TabIndex = 116;
             this.groupBox2.TabStop = false;
@@ -354,7 +360,7 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Lime;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(256, 180);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(47, 42);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -363,7 +369,7 @@
             // 
             // btnMayTinh
             // 
-            this.btnMayTinh.BackColor = System.Drawing.SystemColors.Control;
+            this.btnMayTinh.BackColor = System.Drawing.Color.Transparent;
             this.btnMayTinh.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMayTinh.BackgroundImage")));
             this.btnMayTinh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnMayTinh.FlatAppearance.BorderSize = 0;
@@ -371,7 +377,7 @@
             this.btnMayTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMayTinh.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.btnMayTinh.Location = new System.Drawing.Point(496, 44);
-            this.btnMayTinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMayTinh.Margin = new System.Windows.Forms.Padding(4);
             this.btnMayTinh.Name = "btnMayTinh";
             this.btnMayTinh.Size = new System.Drawing.Size(180, 171);
             this.btnMayTinh.TabIndex = 118;
@@ -385,7 +391,7 @@
             this.btnRutTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRutTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRutTien.Location = new System.Drawing.Point(244, 174);
-            this.btnRutTien.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRutTien.Margin = new System.Windows.Forms.Padding(4);
             this.btnRutTien.Name = "btnRutTien";
             this.btnRutTien.Size = new System.Drawing.Size(156, 54);
             this.btnRutTien.TabIndex = 117;
@@ -407,6 +413,7 @@
             // 
             // groupBox4
             // 
+            this.groupBox4.BackColor = System.Drawing.Color.Transparent;
             this.groupBox4.Controls.Add(this.button4);
             this.groupBox4.Controls.Add(this.button3);
             this.groupBox4.Controls.Add(this.txtSoTienDaRut);
@@ -419,11 +426,12 @@
             this.groupBox4.Controls.Add(this.txtSoTienHienTai);
             this.groupBox4.Controls.Add(this.txtSoTienChuSo);
             this.groupBox4.Controls.Add(this.button5);
-            this.groupBox4.Location = new System.Drawing.Point(548, 353);
-            this.groupBox4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Location = new System.Drawing.Point(651, 354);
+            this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox4.Size = new System.Drawing.Size(691, 247);
+            this.groupBox4.Padding = new System.Windows.Forms.Padding(4);
+            this.groupBox4.Size = new System.Drawing.Size(588, 247);
             this.groupBox4.TabIndex = 117;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Thông Tin Ghi Chú";
@@ -434,9 +442,9 @@
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.ForeColor = System.Drawing.Color.Blue;
             this.button4.Location = new System.Drawing.Point(244, 59);
-            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button4.Margin = new System.Windows.Forms.Padding(4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(425, 2);
+            this.button4.Size = new System.Drawing.Size(326, 2);
             this.button4.TabIndex = 31;
             this.button4.UseVisualStyleBackColor = false;
             // 
@@ -446,9 +454,9 @@
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.ForeColor = System.Drawing.Color.Blue;
             this.button3.Location = new System.Drawing.Point(244, 213);
-            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button3.Margin = new System.Windows.Forms.Padding(4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(425, 2);
+            this.button3.Size = new System.Drawing.Size(326, 2);
             this.button3.TabIndex = 126;
             this.button3.UseVisualStyleBackColor = false;
             // 
@@ -459,9 +467,9 @@
             this.txtSoTienDaRut.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoTienDaRut.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtSoTienDaRut.Location = new System.Drawing.Point(244, 194);
-            this.txtSoTienDaRut.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienDaRut.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoTienDaRut.Name = "txtSoTienDaRut";
-            this.txtSoTienDaRut.Size = new System.Drawing.Size(425, 19);
+            this.txtSoTienDaRut.Size = new System.Drawing.Size(326, 19);
             this.txtSoTienDaRut.TabIndex = 125;
             // 
             // label8
@@ -482,9 +490,9 @@
             this.txtTenTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtTenTaiKhoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.txtTenTaiKhoan.Location = new System.Drawing.Point(244, 42);
-            this.txtTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenTaiKhoan.Name = "txtTenTaiKhoan";
-            this.txtTenTaiKhoan.Size = new System.Drawing.Size(425, 19);
+            this.txtTenTaiKhoan.Size = new System.Drawing.Size(326, 19);
             this.txtTenTaiKhoan.TabIndex = 30;
             // 
             // label11
@@ -527,9 +535,9 @@
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.ForeColor = System.Drawing.Color.Blue;
             this.button2.Location = new System.Drawing.Point(244, 161);
-            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(425, 2);
+            this.button2.Size = new System.Drawing.Size(326, 2);
             this.button2.TabIndex = 122;
             this.button2.UseVisualStyleBackColor = false;
             // 
@@ -540,9 +548,9 @@
             this.txtSoTienHienTai.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoTienHienTai.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtSoTienHienTai.Location = new System.Drawing.Point(244, 90);
-            this.txtSoTienHienTai.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienHienTai.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoTienHienTai.Name = "txtSoTienHienTai";
-            this.txtSoTienHienTai.Size = new System.Drawing.Size(425, 19);
+            this.txtSoTienHienTai.Size = new System.Drawing.Size(326, 19);
             this.txtSoTienHienTai.TabIndex = 119;
             this.txtSoTienHienTai.Text = "0000";
             // 
@@ -553,9 +561,9 @@
             this.txtSoTienChuSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSoTienChuSo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.txtSoTienChuSo.Location = new System.Drawing.Point(244, 143);
-            this.txtSoTienChuSo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoTienChuSo.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoTienChuSo.Name = "txtSoTienChuSo";
-            this.txtSoTienChuSo.Size = new System.Drawing.Size(425, 19);
+            this.txtSoTienChuSo.Size = new System.Drawing.Size(326, 19);
             this.txtSoTienChuSo.TabIndex = 121;
             // 
             // button5
@@ -564,9 +572,9 @@
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.ForeColor = System.Drawing.Color.Blue;
             this.button5.Location = new System.Drawing.Point(244, 110);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(425, 2);
+            this.button5.Size = new System.Drawing.Size(326, 2);
             this.button5.TabIndex = 120;
             this.button5.UseVisualStyleBackColor = false;
             // 
@@ -574,14 +582,17 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.background;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1252, 620);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox1);
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "FormRutTien";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FormRutTien";

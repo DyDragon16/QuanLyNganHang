@@ -363,5 +363,8 @@
   <ItemGroup>
     <None Include="Resources\naptien-removebg-preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deleted account.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

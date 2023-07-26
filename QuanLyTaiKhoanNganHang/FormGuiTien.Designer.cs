@@ -297,7 +297,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.DodgerBlue;
             this.pictureBox1.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.naptien_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(1093, 164);
+            this.pictureBox1.Location = new System.Drawing.Point(1091, 163);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(49, 42);
@@ -321,7 +321,7 @@
             // 
             this.btnInThongTin.BackColor = System.Drawing.Color.Green;
             this.btnInThongTin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnInThongTin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInThongTin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInThongTin.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnInThongTin.Location = new System.Drawing.Point(1088, 68);
             this.btnInThongTin.Margin = new System.Windows.Forms.Padding(4);
@@ -424,7 +424,7 @@
             // 
             this.btnGuiTien.BackColor = System.Drawing.Color.DodgerBlue;
             this.btnGuiTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuiTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuiTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuiTien.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnGuiTien.Location = new System.Drawing.Point(1088, 158);
             this.btnGuiTien.Margin = new System.Windows.Forms.Padding(4);
@@ -673,7 +673,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.Thiết_kế_chưa_có_tên__4_;
+            this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1252, 620);
             this.Controls.Add(this.groupBox3);

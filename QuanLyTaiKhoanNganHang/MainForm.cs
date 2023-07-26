@@ -215,10 +215,6 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnSuaThongTinTaiKhoan_Click(object sender, EventArgs e)
         {
-            foreach (Form form in this.MdiChildren)
-            {
-                form.Close();
-            }
             FormSuaThongTinTaiKhoan formSuaThongTinTaiKhoan = new FormSuaThongTinTaiKhoan();
             formSuaThongTinTaiKhoan.MdiParent = this;
             formSuaThongTinTaiKhoan.Show();

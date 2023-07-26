@@ -32,7 +32,6 @@
             this.ptbTaiAnh = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.Thoat = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.btnTaiAnh = new System.Windows.Forms.Button();
             this.txtTenTaiKhoan = new System.Windows.Forms.TextBox();
@@ -72,7 +71,6 @@
             this.HienMatKhau = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.ptbTaiAnh)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.DanhSachTaiKhoanGV)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -85,7 +83,7 @@
             // 
             this.ptbTaiAnh.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.ptbTaiAnh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ptbTaiAnh.Location = new System.Drawing.Point(1112, 110);
+            this.ptbTaiAnh.Location = new System.Drawing.Point(1055, 109);
             this.ptbTaiAnh.Margin = new System.Windows.Forms.Padding(4);
             this.ptbTaiAnh.Name = "ptbTaiAnh";
             this.ptbTaiAnh.Size = new System.Drawing.Size(161, 180);
@@ -97,13 +95,12 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.Thoat);
-            this.panel1.Controls.Add(this.pictureBox3);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1373, 54);
+            this.panel1.Size = new System.Drawing.Size(1252, 54);
             this.panel1.TabIndex = 71;
             // 
             // Thoat
@@ -114,7 +111,7 @@
             this.Thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Thoat.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Thoat.ForeColor = System.Drawing.Color.Azure;
-            this.Thoat.Location = new System.Drawing.Point(1316, 0);
+            this.Thoat.Location = new System.Drawing.Point(1199, 1);
             this.Thoat.Margin = new System.Windows.Forms.Padding(4);
             this.Thoat.Name = "Thoat";
             this.Thoat.Size = new System.Drawing.Size(53, 54);
@@ -122,18 +119,6 @@
             this.Thoat.Text = "x";
             this.Thoat.UseVisualStyleBackColor = false;
             this.Thoat.Click += new System.EventHandler(this.Thoat_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.ErrorImage")));
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(1385, 4);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(48, 43);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 15;
-            this.pictureBox3.TabStop = false;
             // 
             // label2
             // 
@@ -152,7 +137,7 @@
             this.btnTaiAnh.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.btnTaiAnh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTaiAnh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTaiAnh.Location = new System.Drawing.Point(1144, 303);
+            this.btnTaiAnh.Location = new System.Drawing.Point(1084, 294);
             this.btnTaiAnh.Margin = new System.Windows.Forms.Padding(4);
             this.btnTaiAnh.Name = "btnTaiAnh";
             this.btnTaiAnh.Size = new System.Drawing.Size(100, 28);
@@ -577,10 +562,10 @@
             // 
             this.txtImageData.BackColor = System.Drawing.SystemColors.Highlight;
             this.txtImageData.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtImageData.Location = new System.Drawing.Point(1265, 310);
+            this.txtImageData.Location = new System.Drawing.Point(1055, 334);
             this.txtImageData.Margin = new System.Windows.Forms.Padding(4);
             this.txtImageData.Name = "txtImageData";
-            this.txtImageData.Size = new System.Drawing.Size(92, 15);
+            this.txtImageData.Size = new System.Drawing.Size(161, 15);
             this.txtImageData.TabIndex = 105;
             // 
             // txtCCCD
@@ -679,9 +664,9 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.Thiết_kế_chưa_có_tên__4_;
+            this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1373, 615);
+            this.ClientSize = new System.Drawing.Size(1252, 620);
             this.Controls.Add(this.HienMatKhau);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox12);
@@ -729,7 +714,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.ptbTaiAnh)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.groupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.DanhSachTaiKhoanGV)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -745,7 +729,6 @@
 
         private System.Windows.Forms.PictureBox ptbTaiAnh;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnTaiAnh;
         private System.Windows.Forms.TextBox txtTenTaiKhoan;
