@@ -146,6 +146,7 @@
             // btnSuaThongTin
             // 
             this.btnSuaThongTin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnSuaThongTin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnSuaThongTin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSuaThongTin.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaThongTin.ForeColor = System.Drawing.Color.White;
@@ -212,6 +213,7 @@
             // picBExitRed
             // 
             this.picBExitRed.BackColor = System.Drawing.Color.Transparent;
+            this.picBExitRed.Cursor = System.Windows.Forms.Cursors.Hand;
             this.picBExitRed.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.exit_đỏ_removebg_preview;
             this.picBExitRed.Location = new System.Drawing.Point(552, 12);
             this.picBExitRed.Name = "picBExitRed";
@@ -224,6 +226,7 @@
             // HienThiMatKhauHT
             // 
             this.HienThiMatKhauHT.BackColor = System.Drawing.Color.Transparent;
+            this.HienThiMatKhauHT.Cursor = System.Windows.Forms.Cursors.Hand;
             this.HienThiMatKhauHT.Image = ((System.Drawing.Image)(resources.GetObject("HienThiMatKhauHT.Image")));
             this.HienThiMatKhauHT.Location = new System.Drawing.Point(527, 118);
             this.HienThiMatKhauHT.Margin = new System.Windows.Forms.Padding(4);
@@ -237,6 +240,7 @@
             // DoiMatKhau
             // 
             this.DoiMatKhau.BackColor = System.Drawing.Color.Transparent;
+            this.DoiMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.DoiMatKhau.Image = ((System.Drawing.Image)(resources.GetObject("DoiMatKhau.Image")));
             this.DoiMatKhau.Location = new System.Drawing.Point(527, 153);
             this.DoiMatKhau.Margin = new System.Windows.Forms.Padding(4);
@@ -250,6 +254,7 @@
             // XacNhanMatKhau
             // 
             this.XacNhanMatKhau.BackColor = System.Drawing.Color.Transparent;
+            this.XacNhanMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.XacNhanMatKhau.Image = ((System.Drawing.Image)(resources.GetObject("XacNhanMatKhau.Image")));
             this.XacNhanMatKhau.Location = new System.Drawing.Point(527, 185);
             this.XacNhanMatKhau.Margin = new System.Windows.Forms.Padding(4);

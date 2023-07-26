@@ -200,6 +200,7 @@
             // btnKiemTra
             // 
             this.btnKiemTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnKiemTra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTra.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.btnKiemTra.Location = new System.Drawing.Point(247, 150);
@@ -515,6 +516,7 @@
             // btnChuyenTien
             // 
             this.btnChuyenTien.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnChuyenTien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnChuyenTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenTien.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnChuyenTien.Location = new System.Drawing.Point(473, 156);

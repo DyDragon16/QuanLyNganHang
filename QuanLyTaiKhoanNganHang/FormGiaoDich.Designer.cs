@@ -368,6 +368,7 @@
             // btnLuuThongTinGiaoDich
             // 
             this.btnLuuThongTinGiaoDich.BackColor = System.Drawing.Color.Lime;
+            this.btnLuuThongTinGiaoDich.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLuuThongTinGiaoDich.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLuuThongTinGiaoDich.Location = new System.Drawing.Point(320, 144);
             this.btnLuuThongTinGiaoDich.Margin = new System.Windows.Forms.Padding(4);
@@ -382,6 +383,7 @@
             // btnKiemTraTK
             // 
             this.btnKiemTraTK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnKiemTraTK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTraTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTraTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKiemTraTK.Location = new System.Drawing.Point(320, 66);

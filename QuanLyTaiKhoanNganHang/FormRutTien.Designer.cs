@@ -157,6 +157,7 @@
             // btnKiemTra
             // 
             this.btnKiemTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnKiemTra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTra.Location = new System.Drawing.Point(164, 167);
             this.btnKiemTra.Margin = new System.Windows.Forms.Padding(4);
@@ -372,6 +373,7 @@
             this.btnMayTinh.BackColor = System.Drawing.Color.Transparent;
             this.btnMayTinh.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMayTinh.BackgroundImage")));
             this.btnMayTinh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMayTinh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMayTinh.FlatAppearance.BorderSize = 0;
             this.btnMayTinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMayTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -388,6 +390,7 @@
             // btnRutTien
             // 
             this.btnRutTien.BackColor = System.Drawing.Color.Lime;
+            this.btnRutTien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRutTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRutTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRutTien.Location = new System.Drawing.Point(244, 174);

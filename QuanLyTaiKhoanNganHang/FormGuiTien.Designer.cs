@@ -159,6 +159,7 @@
             // btnKiemTra
             // 
             this.btnKiemTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btnKiemTra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTra.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.btnKiemTra.Location = new System.Drawing.Point(220, 141);
@@ -176,6 +177,7 @@
             this.btnMayTinh.BackColor = System.Drawing.Color.Transparent;
             this.btnMayTinh.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnMayTinh.BackgroundImage")));
             this.btnMayTinh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnMayTinh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMayTinh.FlatAppearance.BorderSize = 0;
             this.btnMayTinh.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMayTinh.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -320,6 +322,7 @@
             // btnInThongTin
             // 
             this.btnInThongTin.BackColor = System.Drawing.Color.Green;
+            this.btnInThongTin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnInThongTin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnInThongTin.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInThongTin.ForeColor = System.Drawing.Color.WhiteSmoke;
@@ -423,6 +426,7 @@
             // btnGuiTien
             // 
             this.btnGuiTien.BackColor = System.Drawing.Color.DodgerBlue;
+            this.btnGuiTien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuiTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGuiTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGuiTien.ForeColor = System.Drawing.Color.WhiteSmoke;

@@ -77,6 +77,7 @@
             // btnLayLaiMatKhau
             // 
             this.btnLayLaiMatKhau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnLayLaiMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLayLaiMatKhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLayLaiMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLayLaiMatKhau.ForeColor = System.Drawing.Color.White;
@@ -169,6 +170,7 @@
             this.btnQuayLai.BackColor = System.Drawing.Color.Transparent;
             this.btnQuayLai.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.right_arrow_371;
             this.btnQuayLai.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnQuayLai.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuayLai.FlatAppearance.BorderSize = 0;
             this.btnQuayLai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnQuayLai.Location = new System.Drawing.Point(307, 346);

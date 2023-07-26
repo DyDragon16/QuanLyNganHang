@@ -149,6 +149,7 @@
             // btnKiemTra
             // 
             this.btnKiemTra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnKiemTra.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTra.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKiemTra.Location = new System.Drawing.Point(187, 156);
@@ -404,6 +405,7 @@
             // btnXoaTaiKhoan
             // 
             this.btnXoaTaiKhoan.BackColor = System.Drawing.Color.Lime;
+            this.btnXoaTaiKhoan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoaTaiKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnXoaTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaTaiKhoan.Location = new System.Drawing.Point(955, 363);

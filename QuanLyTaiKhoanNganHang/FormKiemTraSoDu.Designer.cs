@@ -114,6 +114,7 @@
             // btnKiemTraSoDuTK
             // 
             this.btnKiemTraSoDuTK.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
+            this.btnKiemTraSoDuTK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTraSoDuTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTraSoDuTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKiemTraSoDuTK.Location = new System.Drawing.Point(117, 162);
@@ -529,6 +530,7 @@
             // MayTinh
             // 
             this.MayTinh.BackColor = System.Drawing.Color.Transparent;
+            this.MayTinh.Cursor = System.Windows.Forms.Cursors.Hand;
             this.MayTinh.Image = ((System.Drawing.Image)(resources.GetObject("MayTinh.Image")));
             this.MayTinh.Location = new System.Drawing.Point(281, 379);
             this.MayTinh.Margin = new System.Windows.Forms.Padding(4);
