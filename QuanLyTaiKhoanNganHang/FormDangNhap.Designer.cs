@@ -40,7 +40,6 @@
             this.HienThiMatKhau = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.lblLinkĐangKy = new System.Windows.Forms.LinkLabel();
             this.txtMatKhau = new System.Windows.Forms.TextBox();
             this.btnCloseDN = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
@@ -130,7 +129,7 @@
             this.txtQuenMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtQuenMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuenMatKhau.ForeColor = System.Drawing.Color.Blue;
-            this.txtQuenMatKhau.Location = new System.Drawing.Point(81, 485);
+            this.txtQuenMatKhau.Location = new System.Drawing.Point(185, 483);
             this.txtQuenMatKhau.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtQuenMatKhau.Name = "txtQuenMatKhau";
             this.txtQuenMatKhau.Size = new System.Drawing.Size(162, 25);
@@ -173,20 +172,6 @@
             this.label1.TabIndex = 58;
             this.label1.Text = "Đăng Nhập";
             // 
-            // lblLinkĐangKy
-            // 
-            this.lblLinkĐangKy.AutoSize = true;
-            this.lblLinkĐangKy.BackColor = System.Drawing.Color.Transparent;
-            this.lblLinkĐangKy.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.lblLinkĐangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLinkĐangKy.Location = new System.Drawing.Point(333, 485);
-            this.lblLinkĐangKy.Name = "lblLinkĐangKy";
-            this.lblLinkĐangKy.Size = new System.Drawing.Size(131, 25);
-            this.lblLinkĐangKy.TabIndex = 60;
-            this.lblLinkĐangKy.TabStop = true;
-            this.lblLinkĐangKy.Text = "Tạo tài khoản";
-            this.lblLinkĐangKy.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lblLinkĐangKy_LinkClicked);
-            // 
             // txtMatKhau
             // 
             this.txtMatKhau.BackColor = System.Drawing.Color.White;
@@ -221,7 +206,6 @@
             this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.background;
             this.ClientSize = new System.Drawing.Size(581, 569);
             this.Controls.Add(this.btnCloseDN);
-            this.Controls.Add(this.lblLinkĐangKy);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.HienThiMatKhau);
@@ -258,7 +242,6 @@
         private System.Windows.Forms.PictureBox HienThiMatKhau;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.LinkLabel lblLinkĐangKy;
         private System.Windows.Forms.TextBox txtMatKhau;
         private System.Windows.Forms.Button btnCloseDN;
         private System.Windows.Forms.Timer timer1;

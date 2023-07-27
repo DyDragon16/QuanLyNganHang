@@ -31,7 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormTaoTaiKhoan));
             this.ptbTaiAnh = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.Thoat = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
             this.btnTaiAnh = new System.Windows.Forms.Button();
             this.txtTenTaiKhoan = new System.Windows.Forms.TextBox();
@@ -94,7 +93,6 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.Thoat);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -102,23 +100,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1252, 54);
             this.panel1.TabIndex = 71;
-            // 
-            // Thoat
-            // 
-            this.Thoat.BackColor = System.Drawing.Color.Transparent;
-            this.Thoat.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.Thoat.FlatAppearance.BorderSize = 0;
-            this.Thoat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Thoat.Font = new System.Drawing.Font("Microsoft YaHei UI", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Thoat.ForeColor = System.Drawing.Color.Azure;
-            this.Thoat.Location = new System.Drawing.Point(1199, 1);
-            this.Thoat.Margin = new System.Windows.Forms.Padding(4);
-            this.Thoat.Name = "Thoat";
-            this.Thoat.Size = new System.Drawing.Size(53, 54);
-            this.Thoat.TabIndex = 114;
-            this.Thoat.Text = "x";
-            this.Thoat.UseVisualStyleBackColor = false;
-            this.Thoat.Click += new System.EventHandler(this.Thoat_Click);
             // 
             // label2
             // 
@@ -537,20 +518,10 @@
             // 
             this.cbbLoaiTaiKhoan.FormattingEnabled = true;
             this.cbbLoaiTaiKhoan.Items.AddRange(new object[] {
-            "TK tiền gửi",
-            "TK vãng lai",
-            "TK tiết kiệm",
-            "TK thanh toán",
-            "TK tiền gửi dài hạn",
-            "TK gửi có kỳ hạn",
-            "TK ngắn hạn",
-            "TK vô danh",
-            "TK đầu tư",
-            "TK liên kết",
-            "TK doanh nghiệp",
             "TK cá nhân",
-            "TK ngân hàng trực tuyến",
-            "TK thanh toán hàng tháng",
+            "TK tiết kiệm",
+            "TK đầu tư",
+            "TK doanh nghiệp",
             "TK thanh toán quốc tế"});
             this.cbbLoaiTaiKhoan.Location = new System.Drawing.Point(204, 244);
             this.cbbLoaiTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
@@ -766,6 +737,5 @@
         private System.Windows.Forms.Button btnInThongTin;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox HienMatKhau;
-        private System.Windows.Forms.Button Thoat;
     }
 }

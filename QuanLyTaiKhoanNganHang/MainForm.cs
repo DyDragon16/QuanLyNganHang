@@ -25,7 +25,8 @@ namespace QuanLyTaiKhoanNganHang
                 btnChuyenKhoan,
                 btnRutTien,
                 btnKiemTraSoDu,
-                btnGiaoDich
+                btnGiaoDich,
+                btnTaotaikhoan
 
                 // Thêm các Button khác vào danh sách
             };
@@ -144,6 +145,17 @@ namespace QuanLyTaiKhoanNganHang
             FormGiaoDich formGiaoDich = new FormGiaoDich();
             formGiaoDich.MdiParent = this;
             formGiaoDich.Show();
+        }
+
+        private void btnTaotaikhoan_Click(object sender, EventArgs e)
+        {
+            foreach (Form form in this.MdiChildren)
+            {
+                form.Close();
+            }
+            FormTaoTaiKhoan formTaoTaiKhoan = new FormTaoTaiKhoan();
+            formTaoTaiKhoan.MdiParent = this;
+            formTaoTaiKhoan.Show();
         }
 
         private void btnDangXuat_Click(object sender, EventArgs e)

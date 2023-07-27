@@ -366,5 +366,8 @@
   <ItemGroup>
     <None Include="Resources\deleted account.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\taoTK.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

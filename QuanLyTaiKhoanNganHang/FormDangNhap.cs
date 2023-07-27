@@ -77,8 +77,8 @@ namespace QuanLyTaiKhoanNganHang
 
         private void txtQuenMatKhau_Click(object sender, EventArgs e)
         {
+            this.Hide();
             FormQuenMatKhau formQuenMatKhau = new FormQuenMatKhau();
-            this.Close();
             formQuenMatKhau.Show();
         }
 
@@ -99,12 +99,6 @@ namespace QuanLyTaiKhoanNganHang
                 btnDangNhap_Click(sender, e);
             }
         }
-        private void lblLinkĐangKy_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            FormTaoTaiKhoan formTaoTaiKhoan = new FormTaoTaiKhoan();
-            formTaoTaiKhoan.Show();
-        }
-    
         private void txtMatKhau_TextChanged_2(object sender, EventArgs e)
         {
             txtMatKhau.UseSystemPasswordChar = true;

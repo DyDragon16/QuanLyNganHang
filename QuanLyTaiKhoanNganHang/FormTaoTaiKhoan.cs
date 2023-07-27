@@ -173,7 +173,7 @@ namespace QuanLyTaiKhoanNganHang
                         MessageBox.Show("Tạo Tài Khoản (" + txtTenTaiKhoan.Text + ") Thành Công.");
                     } catch 
                     {
-                        MessageBox.Show("Tạo Tài Khoản Thất Bại. Bạn Chưa Cập Nhật Ảnh." , "Error: Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Tạo Tài Khoản Thất Bại. Ngày Sinh Không Phù Hợp Hoặc Chưa Cập Nhật Ảnh." , "Error: Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         command.Dispose();
                         Con.Close();
                         return;
@@ -471,15 +471,6 @@ namespace QuanLyTaiKhoanNganHang
         private void txtMatKhau_TextChanged(object sender, EventArgs e)
         {
             txtMatKhau.UseSystemPasswordChar = true; // Luôn ẩn mật khẩu khi gõ vào ô nhập liệu
-        }
-
-        private void Thoat_Click(object sender, EventArgs e)
-        {
-            foreach (Form form in this.MdiChildren)
-            {
-                form.Close();
-            }
-            this.Close();
         }
     }
 }
