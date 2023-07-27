@@ -32,8 +32,8 @@ namespace QuanLyTaiKhoanNganHang
             SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
             DataTable dataTable = new DataTable();
             adapter.Fill(dataTable);
-            SoDuTaiKhoanGV.DataSource = dataTable;
-            SoDuTaiKhoanGV.Refresh();
+            dgvDanhSachTaiKhoan.DataSource = dataTable;
+            dgvDanhSachTaiKhoan.Refresh();
             Con.Close();
         }
 
@@ -64,7 +64,7 @@ namespace QuanLyTaiKhoanNganHang
                     using (MemoryStream ms = new MemoryStream(imageBytes))
                     {
                         Image image = Image.FromStream(ms);
-                        ptbTaiAnh.Image = image; // Hiển thị ảnh lên PictureBox
+                        ptbAnh.Image = image; // Hiển thị ảnh lên PictureBox
                     }
                 }
 
@@ -275,7 +275,7 @@ namespace QuanLyTaiKhoanNganHang
         {
             if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
             {
-                DataGridViewRow row = SoDuTaiKhoanGV.CurrentRow;
+                DataGridViewRow row = dgvDanhSachTaiKhoan.CurrentRow;
                 string tentaikhoan = row.Cells["TenTaiKhoan"].Value.ToString();
                 string sotaikhoan = row.Cells["SoTaiKhoan"].Value.ToString();
                 string cccd = row.Cells["CCCD"].Value.ToString();

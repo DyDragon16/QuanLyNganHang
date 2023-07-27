@@ -79,7 +79,7 @@ namespace QuanLyTaiKhoanNganHang
                     using (MemoryStream ms = new MemoryStream(imageBytes))
                     {
                         Image image = Image.FromStream(ms);
-                        ptbTaiAnh.Image = image; // Hiển thị ảnh lên PictureBox
+                        ptbAnh.Image = image; // Hiển thị ảnh lên PictureBox
                     }
                 }
 

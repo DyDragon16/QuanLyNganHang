@@ -76,7 +76,7 @@ namespace QuanLyTaiKhoanNganHang
                     using (MemoryStream ms = new MemoryStream(imageBytes))
                     {
                         Image image = Image.FromStream(ms);
-                        ptbTaiAnh.Image = image; // Hiển thị ảnh lên PictureBox
+                        ptbAnh.Image = image; // Hiển thị ảnh lên PictureBox
                     }
                 }
 
@@ -113,7 +113,7 @@ namespace QuanLyTaiKhoanNganHang
             SqlDataAdapter adapter = new SqlDataAdapter(sqlCommand);
             DataTable dataTable = new DataTable();
             adapter.Fill(dataTable);
-            SoDuTaiKhoanGV.DataSource = dataTable;
+            dgvDanhSachTaiKhoan.DataSource = dataTable;
             Con.Close();
         }
 
@@ -375,7 +375,7 @@ namespace QuanLyTaiKhoanNganHang
             dataTable.Columns.Add(col3);
             dataTable.Columns.Add(col4);
 
-            foreach (DataGridViewRow dtgvRow in SoDuTaiKhoanGV.Rows)
+            foreach (DataGridViewRow dtgvRow in dgvDanhSachTaiKhoan.Rows)
             {
                 DataRow dtRow = dataTable.NewRow();
 
@@ -417,7 +417,7 @@ namespace QuanLyTaiKhoanNganHang
                     using (MemoryStream ms = new MemoryStream(imageBytes))
                     {
                         Image image = Image.FromStream(ms);
-                        ptbTaiAnh.Image = image; // Hiển thị ảnh lên PictureBox
+                        ptbAnh.Image = image; // Hiển thị ảnh lên PictureBox
                     }
                 }
 

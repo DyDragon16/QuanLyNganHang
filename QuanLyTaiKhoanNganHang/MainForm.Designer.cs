@@ -40,7 +40,7 @@
             this.càiĐặtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xóaTàiKhoảnToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.xemChiTiếtThôngTinToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.hướngDẫnDùngAppToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MayTinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngXuấtToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
@@ -81,7 +81,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.panel2.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel2.Controls.Add(this.pictureBox1);
             this.panel2.Controls.Add(this.btnTaotaikhoan);
             this.panel2.Controls.Add(this.panel4);
@@ -106,7 +106,7 @@
             this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(279, 694);
+            this.panel2.Size = new System.Drawing.Size(325, 694);
             this.panel2.TabIndex = 1;
             // 
             // pictureBox1
@@ -127,12 +127,12 @@
             this.btnTaotaikhoan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnTaotaikhoan.FlatAppearance.BorderSize = 0;
             this.btnTaotaikhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnTaotaikhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTaotaikhoan.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnTaotaikhoan.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaotaikhoan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnTaotaikhoan.Location = new System.Drawing.Point(82, 539);
             this.btnTaotaikhoan.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnTaotaikhoan.Name = "btnTaotaikhoan";
-            this.btnTaotaikhoan.Size = new System.Drawing.Size(188, 41);
+            this.btnTaotaikhoan.Size = new System.Drawing.Size(214, 41);
             this.btnTaotaikhoan.TabIndex = 127;
             this.btnTaotaikhoan.Text = "Tạo tài khoản";
             this.btnTaotaikhoan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -143,22 +143,22 @@
             // 
             this.panel4.BackColor = System.Drawing.Color.LightSkyBlue;
             this.panel4.Controls.Add(this.lblDataTimeNow);
-            this.panel4.Location = new System.Drawing.Point(0, 655);
+            this.panel4.Location = new System.Drawing.Point(0, 658);
             this.panel4.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(279, 38);
+            this.panel4.Size = new System.Drawing.Size(325, 38);
             this.panel4.TabIndex = 125;
             // 
             // lblDataTimeNow
             // 
             this.lblDataTimeNow.AutoSize = true;
             this.lblDataTimeNow.BackColor = System.Drawing.Color.Transparent;
-            this.lblDataTimeNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDataTimeNow.ForeColor = System.Drawing.Color.Black;
-            this.lblDataTimeNow.Location = new System.Drawing.Point(27, 10);
+            this.lblDataTimeNow.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataTimeNow.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.lblDataTimeNow.Location = new System.Drawing.Point(19, 12);
             this.lblDataTimeNow.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.lblDataTimeNow.Name = "lblDataTimeNow";
-            this.lblDataTimeNow.Size = new System.Drawing.Size(137, 20);
+            this.lblDataTimeNow.Size = new System.Drawing.Size(189, 18);
             this.lblDataTimeNow.TabIndex = 124;
             this.lblDataTimeNow.Text = "day/month/year";
             // 
@@ -168,12 +168,12 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Transparent;
-            this.label2.Location = new System.Drawing.Point(28, 104);
+            this.label2.Location = new System.Drawing.Point(19, 104);
             this.label2.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(215, 18);
+            this.label2.Size = new System.Drawing.Size(266, 18);
             this.label2.TabIndex = 124;
             this.label2.Text = "SMB TRAO TRỌN TIN YÊU";
             // 
@@ -207,47 +207,47 @@
             this.càiĐặtToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.xóaTàiKhoảnToolStripMenuItem,
             this.xemChiTiếtThôngTinToolStripMenuItem,
-            this.hướngDẫnDùngAppToolStripMenuItem,
+            this.MayTinhToolStripMenuItem,
             this.đăngXuấtToolStripMenuItem,
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem});
-            this.càiĐặtToolStripMenuItem.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.càiĐặtToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.càiĐặtToolStripMenuItem.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.càiĐặtToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.càiĐặtToolStripMenuItem.Name = "càiĐặtToolStripMenuItem";
-            this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(73, 22);
+            this.càiĐặtToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
             this.càiĐặtToolStripMenuItem.Text = "Cài Đặt";
             // 
             // xóaTàiKhoảnToolStripMenuItem
             // 
             this.xóaTàiKhoảnToolStripMenuItem.Name = "xóaTàiKhoảnToolStripMenuItem";
-            this.xóaTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.xóaTàiKhoảnToolStripMenuItem.Size = new System.Drawing.Size(397, 26);
             this.xóaTàiKhoảnToolStripMenuItem.Text = "Xóa Tài Khoản";
             this.xóaTàiKhoảnToolStripMenuItem.Click += new System.EventHandler(this.xóaTàiKhoảnToolStripMenuItem_Click);
             // 
             // xemChiTiếtThôngTinToolStripMenuItem
             // 
             this.xemChiTiếtThôngTinToolStripMenuItem.Name = "xemChiTiếtThôngTinToolStripMenuItem";
-            this.xemChiTiếtThôngTinToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.xemChiTiếtThôngTinToolStripMenuItem.Size = new System.Drawing.Size(397, 26);
             this.xemChiTiếtThôngTinToolStripMenuItem.Text = "Xem Chi Tiết Thông Tin";
             this.xemChiTiếtThôngTinToolStripMenuItem.Click += new System.EventHandler(this.xemChiTiếtThôngTinToolStripMenuItem_Click);
             // 
-            // hướngDẫnDùngAppToolStripMenuItem
+            // MayTinhToolStripMenuItem
             // 
-            this.hướngDẫnDùngAppToolStripMenuItem.Name = "hướngDẫnDùngAppToolStripMenuItem";
-            this.hướngDẫnDùngAppToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
-            this.hướngDẫnDùngAppToolStripMenuItem.Text = "Máy Tính";
-            this.hướngDẫnDùngAppToolStripMenuItem.Click += new System.EventHandler(this.hướngDẫnDùngAppToolStripMenuItem_Click);
+            this.MayTinhToolStripMenuItem.Name = "MayTinhToolStripMenuItem";
+            this.MayTinhToolStripMenuItem.Size = new System.Drawing.Size(397, 26);
+            this.MayTinhToolStripMenuItem.Text = "Máy Tính";
+            this.MayTinhToolStripMenuItem.Click += new System.EventHandler(this.hướngDẫnDùngAppToolStripMenuItem_Click);
             // 
             // đăngXuấtToolStripMenuItem
             // 
             this.đăngXuấtToolStripMenuItem.Name = "đăngXuấtToolStripMenuItem";
-            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.đăngXuấtToolStripMenuItem.Size = new System.Drawing.Size(397, 26);
             this.đăngXuấtToolStripMenuItem.Text = "Đăng Xuất";
             this.đăngXuấtToolStripMenuItem.Click += new System.EventHandler(this.đăngXuấtToolStripMenuItem_Click);
             // 
             // đăngNhậpTàiKhoảnKhácToolStripMenuItem
             // 
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem.Name = "đăngNhậpTàiKhoảnKhácToolStripMenuItem";
-            this.đăngNhậpTàiKhoảnKhácToolStripMenuItem.Size = new System.Drawing.Size(284, 26);
+            this.đăngNhậpTàiKhoảnKhácToolStripMenuItem.Size = new System.Drawing.Size(397, 26);
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem.Text = "Đăng Nhập Tài Khoản Khác";
             this.đăngNhậpTàiKhoảnKhácToolStripMenuItem.Click += new System.EventHandler(this.đăngNhậpTàiKhoảnKhácToolStripMenuItem_Click);
             // 
@@ -329,8 +329,8 @@
             this.btnGiaoDich.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGiaoDich.FlatAppearance.BorderSize = 0;
             this.btnGiaoDich.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGiaoDich.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGiaoDich.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnGiaoDich.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGiaoDich.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnGiaoDich.Location = new System.Drawing.Point(84, 477);
             this.btnGiaoDich.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnGiaoDich.Name = "btnGiaoDich";
@@ -347,8 +347,8 @@
             this.btnHome.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnHome.FlatAppearance.BorderSize = 0;
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHome.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnHome.Font = new System.Drawing.Font("UTM Micra", 8F);
+            this.btnHome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnHome.Location = new System.Drawing.Point(86, 144);
             this.btnHome.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnHome.Name = "btnHome";
@@ -365,12 +365,12 @@
             this.btnKiemTraSoDu.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTraSoDu.FlatAppearance.BorderSize = 0;
             this.btnKiemTraSoDu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnKiemTraSoDu.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKiemTraSoDu.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnKiemTraSoDu.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKiemTraSoDu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnKiemTraSoDu.Location = new System.Drawing.Point(82, 411);
             this.btnKiemTraSoDu.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnKiemTraSoDu.Name = "btnKiemTraSoDu";
-            this.btnKiemTraSoDu.Size = new System.Drawing.Size(188, 41);
+            this.btnKiemTraSoDu.Size = new System.Drawing.Size(226, 41);
             this.btnKiemTraSoDu.TabIndex = 113;
             this.btnKiemTraSoDu.Text = "Kiểm tra số dư";
             this.btnKiemTraSoDu.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -380,7 +380,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.logo_removebg_preview;
-            this.pictureBox3.Location = new System.Drawing.Point(4, 4);
+            this.pictureBox3.Location = new System.Drawing.Point(21, 4);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(271, 96);
@@ -394,8 +394,8 @@
             this.btnRutTien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRutTien.FlatAppearance.BorderSize = 0;
             this.btnRutTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnRutTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRutTien.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnRutTien.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRutTien.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnRutTien.Location = new System.Drawing.Point(84, 341);
             this.btnRutTien.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnRutTien.Name = "btnRutTien";
@@ -412,12 +412,12 @@
             this.btnChuyenKhoan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnChuyenKhoan.FlatAppearance.BorderSize = 0;
             this.btnChuyenKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnChuyenKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnChuyenKhoan.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnChuyenKhoan.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnChuyenKhoan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnChuyenKhoan.Location = new System.Drawing.Point(82, 275);
             this.btnChuyenKhoan.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnChuyenKhoan.Name = "btnChuyenKhoan";
-            this.btnChuyenKhoan.Size = new System.Drawing.Size(188, 46);
+            this.btnChuyenKhoan.Size = new System.Drawing.Size(226, 46);
             this.btnChuyenKhoan.TabIndex = 111;
             this.btnChuyenKhoan.Text = "Chuyển khoản";
             this.btnChuyenKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
@@ -430,8 +430,8 @@
             this.btnGuiTien.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnGuiTien.FlatAppearance.BorderSize = 0;
             this.btnGuiTien.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGuiTien.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGuiTien.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.btnGuiTien.Font = new System.Drawing.Font("UTM Micra", 8F);
+            this.btnGuiTien.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btnGuiTien.Location = new System.Drawing.Point(82, 208);
             this.btnGuiTien.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnGuiTien.Name = "btnGuiTien";
@@ -456,16 +456,16 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.LightSkyBlue;
+            this.panel1.BackColor = System.Drawing.Color.DodgerBlue;
             this.panel1.Controls.Add(this.btnCloseAll);
             this.panel1.Controls.Add(this.btnThongBao);
             this.panel1.Controls.Add(this.btnSuaThongTinTaiKhoan);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel1.Location = new System.Drawing.Point(279, 0);
+            this.panel1.Location = new System.Drawing.Point(325, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1260, 68);
+            this.panel1.Size = new System.Drawing.Size(1214, 68);
             this.panel1.TabIndex = 3;
             // 
             // btnCloseAll
@@ -474,7 +474,7 @@
             this.btnCloseAll.BackColor = System.Drawing.Color.OrangeRed;
             this.btnCloseAll.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCloseAll.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCloseAll.Location = new System.Drawing.Point(1217, 13);
+            this.btnCloseAll.Location = new System.Drawing.Point(1154, 25);
             this.btnCloseAll.Name = "btnCloseAll";
             this.btnCloseAll.Size = new System.Drawing.Size(31, 29);
             this.btnCloseAll.TabIndex = 54;
@@ -491,10 +491,10 @@
             this.btnThongBao.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnThongBao.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnThongBao.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnThongBao.Location = new System.Drawing.Point(1016, 4);
-            this.btnThongBao.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
+            this.btnThongBao.Location = new System.Drawing.Point(1088, 9);
+            this.btnThongBao.Margin = new System.Windows.Forms.Padding(4);
             this.btnThongBao.Name = "btnThongBao";
-            this.btnThongBao.Size = new System.Drawing.Size(74, 60);
+            this.btnThongBao.Size = new System.Drawing.Size(58, 51);
             this.btnThongBao.TabIndex = 53;
             this.btnThongBao.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnThongBao.UseVisualStyleBackColor = false;
@@ -510,10 +510,10 @@
             this.btnSuaThongTinTaiKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSuaThongTinTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSuaThongTinTaiKhoan.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.btnSuaThongTinTaiKhoan.Location = new System.Drawing.Point(1100, 4);
+            this.btnSuaThongTinTaiKhoan.Location = new System.Drawing.Point(1017, 9);
             this.btnSuaThongTinTaiKhoan.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnSuaThongTinTaiKhoan.Name = "btnSuaThongTinTaiKhoan";
-            this.btnSuaThongTinTaiKhoan.Size = new System.Drawing.Size(65, 62);
+            this.btnSuaThongTinTaiKhoan.Size = new System.Drawing.Size(62, 52);
             this.btnSuaThongTinTaiKhoan.TabIndex = 51;
             this.btnSuaThongTinTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnSuaThongTinTaiKhoan.UseVisualStyleBackColor = false;
@@ -522,12 +522,12 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("UTM Micra", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.White;
-            this.label9.Location = new System.Drawing.Point(146, 13);
+            this.label9.Location = new System.Drawing.Point(10, 9);
             this.label9.Margin = new System.Windows.Forms.Padding(5, 0, 5, 0);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(585, 38);
+            this.label9.Size = new System.Drawing.Size(920, 45);
             this.label9.TabIndex = 1;
             this.label9.Text = "QUẢN LÝ TÀI KHOẢN NGÂN HÀNG";
             // 
@@ -592,7 +592,7 @@
         private System.Windows.Forms.ToolStripMenuItem càiĐặtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem xóaTàiKhoảnToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem xemChiTiếtThôngTinToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem hướngDẫnDùngAppToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem MayTinhToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đăngXuấtToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem đăngNhậpTàiKhoảnKhácToolStripMenuItem;
         private System.Windows.Forms.Label lblDataTimeNow;
