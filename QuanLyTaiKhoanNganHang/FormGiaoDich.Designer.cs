@@ -168,7 +168,7 @@
             this.txtCCCD.Location = new System.Drawing.Point(337, 218);
             this.txtCCCD.Margin = new System.Windows.Forms.Padding(4);
             this.txtCCCD.Name = "txtCCCD";
-            this.txtCCCD.Size = new System.Drawing.Size(316, 19);
+            this.txtCCCD.Size = new System.Drawing.Size(253, 15);
             this.txtCCCD.TabIndex = 106;
             // 
             // label4
@@ -197,10 +197,10 @@
             // 
             this.txtTenTaiKhoan.BackColor = System.Drawing.SystemColors.Control;
             this.txtTenTaiKhoan.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtTenTaiKhoan.Location = new System.Drawing.Point(340, 41);
+            this.txtTenTaiKhoan.Location = new System.Drawing.Point(337, 48);
             this.txtTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenTaiKhoan.Name = "txtTenTaiKhoan";
-            this.txtTenTaiKhoan.Size = new System.Drawing.Size(313, 19);
+            this.txtTenTaiKhoan.Size = new System.Drawing.Size(253, 15);
             this.txtTenTaiKhoan.TabIndex = 97;
             // 
             // button8
@@ -234,17 +234,17 @@
             this.txtDiaChiEmail.Location = new System.Drawing.Point(337, 158);
             this.txtDiaChiEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiaChiEmail.Name = "txtDiaChiEmail";
-            this.txtDiaChiEmail.Size = new System.Drawing.Size(316, 19);
+            this.txtDiaChiEmail.Size = new System.Drawing.Size(253, 15);
             this.txtDiaChiEmail.TabIndex = 103;
             // 
             // txtSoTaiKhoan
             // 
             this.txtSoTaiKhoan.BackColor = System.Drawing.SystemColors.Control;
             this.txtSoTaiKhoan.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSoTaiKhoan.Location = new System.Drawing.Point(340, 98);
+            this.txtSoTaiKhoan.Location = new System.Drawing.Point(337, 105);
             this.txtSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoTaiKhoan.Name = "txtSoTaiKhoan";
-            this.txtSoTaiKhoan.Size = new System.Drawing.Size(313, 19);
+            this.txtSoTaiKhoan.Size = new System.Drawing.Size(253, 15);
             this.txtSoTaiKhoan.TabIndex = 99;
             // 
             // label8
@@ -280,7 +280,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1251, 93);
+            this.panel1.Size = new System.Drawing.Size(1223, 93);
             this.panel1.TabIndex = 73;
             // 
             // pictureBox3
@@ -336,7 +336,7 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(502, 212);
+            this.groupBox2.Size = new System.Drawing.Size(451, 212);
             this.groupBox2.TabIndex = 75;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Tìm kiếm tài khoản";
@@ -345,7 +345,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Lime;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(333, 151);
+            this.pictureBox2.Location = new System.Drawing.Point(286, 151);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(43, 32);
@@ -357,7 +357,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(432, 74);
+            this.pictureBox5.Location = new System.Drawing.Point(388, 73);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(40, 30);
@@ -370,7 +370,7 @@
             this.btnLuuThongTinGiaoDich.BackColor = System.Drawing.Color.Lime;
             this.btnLuuThongTinGiaoDich.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLuuThongTinGiaoDich.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnLuuThongTinGiaoDich.Location = new System.Drawing.Point(320, 144);
+            this.btnLuuThongTinGiaoDich.Location = new System.Drawing.Point(273, 144);
             this.btnLuuThongTinGiaoDich.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuuThongTinGiaoDich.Name = "btnLuuThongTinGiaoDich";
             this.btnLuuThongTinGiaoDich.Size = new System.Drawing.Size(164, 47);
@@ -386,7 +386,7 @@
             this.btnKiemTraTK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnKiemTraTK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTraTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKiemTraTK.Location = new System.Drawing.Point(320, 66);
+            this.btnKiemTraTK.Location = new System.Drawing.Point(273, 66);
             this.btnKiemTraTK.Margin = new System.Windows.Forms.Padding(4);
             this.btnKiemTraTK.Name = "btnKiemTraTK";
             this.btnKiemTraTK.Size = new System.Drawing.Size(164, 43);
@@ -403,7 +403,7 @@
             this.cbbTenTaiKhoan.Location = new System.Drawing.Point(20, 144);
             this.cbbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTenTaiKhoan.Name = "cbbTenTaiKhoan";
-            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 28);
+            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(216, 28);
             this.cbbTenTaiKhoan.TabIndex = 28;
             // 
             // cbbSoTaiKhoan
@@ -413,7 +413,7 @@
             this.cbbSoTaiKhoan.Location = new System.Drawing.Point(19, 75);
             this.cbbSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTaiKhoan.Name = "cbbSoTaiKhoan";
-            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 28);
+            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(216, 28);
             this.cbbSoTaiKhoan.TabIndex = 27;
             // 
             // label3
@@ -440,7 +440,7 @@
             // 
             // txtNgayGiaoDich
             // 
-            this.txtNgayGiaoDich.Location = new System.Drawing.Point(534, 91);
+            this.txtNgayGiaoDich.Location = new System.Drawing.Point(479, 91);
             this.txtNgayGiaoDich.Margin = new System.Windows.Forms.Padding(12, 11, 12, 11);
             this.txtNgayGiaoDich.Name = "txtNgayGiaoDich";
             this.txtNgayGiaoDich.TabIndex = 76;
@@ -458,7 +458,7 @@
             // 
             this.groupBox3.Controls.Add(this.txtGhiChu);
             this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox3.Location = new System.Drawing.Point(843, 91);
+            this.groupBox3.Location = new System.Drawing.Point(813, 91);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
@@ -473,7 +473,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1251, 615);
+            this.ClientSize = new System.Drawing.Size(1223, 645);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.txtNgayGiaoDich);
             this.Controls.Add(this.groupBox2);

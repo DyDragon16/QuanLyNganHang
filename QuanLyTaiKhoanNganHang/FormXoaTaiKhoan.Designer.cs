@@ -78,7 +78,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1252, 59);
+            this.panel1.Size = new System.Drawing.Size(1223, 59);
             this.panel1.TabIndex = 74;
             // 
             // pictureBox3
@@ -400,7 +400,7 @@
             this.XoaTaiKhoanGV.Margin = new System.Windows.Forms.Padding(4);
             this.XoaTaiKhoanGV.Name = "XoaTaiKhoanGV";
             this.XoaTaiKhoanGV.RowHeadersWidth = 51;
-            this.XoaTaiKhoanGV.Size = new System.Drawing.Size(669, 224);
+            this.XoaTaiKhoanGV.Size = new System.Drawing.Size(640, 224);
             this.XoaTaiKhoanGV.TabIndex = 77;
             this.XoaTaiKhoanGV.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.XoaTaiKhoanGV_CellContentClick);
             // 
@@ -409,7 +409,7 @@
             this.btnXoaTaiKhoan.BackColor = System.Drawing.Color.Lime;
             this.btnXoaTaiKhoan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoaTaiKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoaTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaTaiKhoan.Location = new System.Drawing.Point(955, 363);
             this.btnXoaTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaTaiKhoan.Name = "btnXoaTaiKhoan";
@@ -450,7 +450,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1252, 620);
+            this.ClientSize = new System.Drawing.Size(1223, 645);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnXoaTaiKhoan);

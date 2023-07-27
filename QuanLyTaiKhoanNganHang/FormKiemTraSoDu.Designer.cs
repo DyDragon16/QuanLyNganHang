@@ -221,7 +221,7 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(734, 512);
+            this.groupBox2.Size = new System.Drawing.Size(705, 512);
             this.groupBox2.TabIndex = 77;
             this.groupBox2.TabStop = false;
             this.groupBox2.Tag = "";
@@ -245,7 +245,7 @@
             this.txtLTK.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtLTK.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtLTK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.txtLTK.Location = new System.Drawing.Point(252, 313);
+            this.txtLTK.Location = new System.Drawing.Point(251, 310);
             this.txtLTK.Margin = new System.Windows.Forms.Padding(4);
             this.txtLTK.Name = "txtLTK";
             this.txtLTK.Size = new System.Drawing.Size(432, 22);
@@ -500,7 +500,7 @@
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1252, 59);
+            this.panel1.Size = new System.Drawing.Size(1223, 59);
             this.panel1.TabIndex = 78;
             // 
             // pictureBox3
@@ -559,7 +559,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1252, 620);
+            this.ClientSize = new System.Drawing.Size(1223, 645);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.MayTinh);
             this.Controls.Add(this.panel1);
