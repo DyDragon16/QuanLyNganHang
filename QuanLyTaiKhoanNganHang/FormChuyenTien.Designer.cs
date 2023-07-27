@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormChuyenTien));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
@@ -136,7 +136,7 @@
             this.groupBox1.Controls.Add(this.btnKiemTra);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox1.Location = new System.Drawing.Point(13, 67);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -187,7 +187,7 @@
             this.cbbTenTaiKhoan.Location = new System.Drawing.Point(187, 96);
             this.cbbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTenTaiKhoan.Name = "cbbTenTaiKhoan";
-            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 26);
+            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 24);
             this.cbbTenTaiKhoan.TabIndex = 28;
             // 
             // cbbSoTaiKhoan
@@ -196,7 +196,7 @@
             this.cbbSoTaiKhoan.Location = new System.Drawing.Point(187, 53);
             this.cbbSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTaiKhoan.Name = "cbbSoTaiKhoan";
-            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 26);
+            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 24);
             this.cbbSoTaiKhoan.TabIndex = 27;
             // 
             // btnKiemTra
@@ -242,7 +242,7 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.dgvDanhSachTaiKhoan);
-            this.groupBox3.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Black;
             this.groupBox3.Location = new System.Drawing.Point(567, 67);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
@@ -257,14 +257,14 @@
             // 
             this.dgvDanhSachTaiKhoan.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dgvDanhSachTaiKhoan.BackgroundColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dgvDanhSachTaiKhoan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dgvDanhSachTaiKhoan.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.dgvDanhSachTaiKhoan.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvDanhSachTaiKhoan.GridColor = System.Drawing.SystemColors.ControlText;
             this.dgvDanhSachTaiKhoan.Location = new System.Drawing.Point(0, 35);
@@ -292,7 +292,7 @@
             this.groupBox2.Controls.Add(this.txtTenTaiKhoan);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox2.Location = new System.Drawing.Point(8, 335);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
@@ -334,7 +334,7 @@
             this.txtCCCD.Location = new System.Drawing.Point(321, 190);
             this.txtCCCD.Margin = new System.Windows.Forms.Padding(4);
             this.txtCCCD.Name = "txtCCCD";
-            this.txtCCCD.Size = new System.Drawing.Size(215, 18);
+            this.txtCCCD.Size = new System.Drawing.Size(269, 19);
             this.txtCCCD.TabIndex = 81;
             // 
             // label9
@@ -367,7 +367,7 @@
             this.txtDiaChiEmail.Location = new System.Drawing.Point(321, 142);
             this.txtDiaChiEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiaChiEmail.Name = "txtDiaChiEmail";
-            this.txtDiaChiEmail.Size = new System.Drawing.Size(215, 18);
+            this.txtDiaChiEmail.Size = new System.Drawing.Size(269, 19);
             this.txtDiaChiEmail.TabIndex = 78;
             // 
             // label8
@@ -412,7 +412,7 @@
             this.txtSoTaiKhoan.Location = new System.Drawing.Point(321, 87);
             this.txtSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoTaiKhoan.Name = "txtSoTaiKhoan";
-            this.txtSoTaiKhoan.Size = new System.Drawing.Size(215, 18);
+            this.txtSoTaiKhoan.Size = new System.Drawing.Size(269, 19);
             this.txtSoTaiKhoan.TabIndex = 24;
             // 
             // button4
@@ -434,7 +434,7 @@
             this.txtTenTaiKhoan.Location = new System.Drawing.Point(321, 31);
             this.txtTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenTaiKhoan.Name = "txtTenTaiKhoan";
-            this.txtTenTaiKhoan.Size = new System.Drawing.Size(215, 18);
+            this.txtTenTaiKhoan.Size = new System.Drawing.Size(269, 19);
             this.txtTenTaiKhoan.TabIndex = 22;
             // 
             // label4
@@ -512,7 +512,7 @@
             this.cbbSoTienMuonChuyen.Location = new System.Drawing.Point(172, 175);
             this.cbbSoTienMuonChuyen.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTienMuonChuyen.Name = "cbbSoTienMuonChuyen";
-            this.cbbSoTienMuonChuyen.Size = new System.Drawing.Size(282, 26);
+            this.cbbSoTienMuonChuyen.Size = new System.Drawing.Size(282, 24);
             this.cbbSoTienMuonChuyen.TabIndex = 29;
             // 
             // btnChuyenTien
@@ -595,7 +595,7 @@
             this.groupBox4.Controls.Add(this.button5);
             this.groupBox4.Controls.Add(this.btnChuyenTien);
             this.groupBox4.Controls.Add(this.txtSoTienHienTai);
-            this.groupBox4.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox4.Location = new System.Drawing.Point(567, 335);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
@@ -610,7 +610,7 @@
             // 
             this.txtNoidungchuyentien.Location = new System.Drawing.Point(172, 224);
             this.txtNoidungchuyentien.Name = "txtNoidungchuyentien";
-            this.txtNoidungchuyentien.Size = new System.Drawing.Size(282, 25);
+            this.txtNoidungchuyentien.Size = new System.Drawing.Size(353, 28);
             this.txtNoidungchuyentien.TabIndex = 92;
             // 
             // label13
@@ -686,7 +686,7 @@
             this.cbbDenTaiKhoan.Location = new System.Drawing.Point(172, 127);
             this.cbbDenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbDenTaiKhoan.Name = "cbbDenTaiKhoan";
-            this.cbbDenTaiKhoan.Size = new System.Drawing.Size(282, 26);
+            this.cbbDenTaiKhoan.Size = new System.Drawing.Size(282, 24);
             this.cbbDenTaiKhoan.TabIndex = 84;
             // 
             // btnMayTinh

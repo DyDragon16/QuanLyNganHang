@@ -90,7 +90,7 @@
             this.groupBox1.Controls.Add(this.btnKiemTra);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(28, 80);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
@@ -141,7 +141,7 @@
             this.cbbTenTaiKhoan.Location = new System.Drawing.Point(174, 101);
             this.cbbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTenTaiKhoan.Name = "cbbTenTaiKhoan";
-            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 26);
+            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 24);
             this.cbbTenTaiKhoan.TabIndex = 28;
             // 
             // cbbSoTaiKhoan
@@ -151,7 +151,7 @@
             this.cbbSoTaiKhoan.Location = new System.Drawing.Point(174, 59);
             this.cbbSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTaiKhoan.Name = "cbbSoTaiKhoan";
-            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 26);
+            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 24);
             this.cbbSoTaiKhoan.TabIndex = 27;
             // 
             // btnKiemTra
@@ -195,7 +195,7 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.SoDuTaiKhoanGV);
-            this.groupBox3.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Black;
             this.groupBox3.Location = new System.Drawing.Point(28, 353);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
@@ -320,7 +320,7 @@
             this.cbbSoTienCanRut.Location = new System.Drawing.Point(212, 59);
             this.cbbSoTienCanRut.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTienCanRut.Name = "cbbSoTienCanRut";
-            this.cbbSoTienCanRut.Size = new System.Drawing.Size(264, 26);
+            this.cbbSoTienCanRut.Size = new System.Drawing.Size(264, 24);
             this.cbbSoTienCanRut.TabIndex = 82;
             // 
             // lblDataTimeNow
@@ -346,7 +346,7 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.lblDataTimeNow);
             this.groupBox2.Controls.Add(this.cbbSoTienCanRut);
-            this.groupBox2.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(546, 80);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
@@ -429,7 +429,7 @@
             this.groupBox4.Controls.Add(this.txtSoTienHienTai);
             this.groupBox4.Controls.Add(this.txtSoTienChuSo);
             this.groupBox4.Controls.Add(this.button5);
-            this.groupBox4.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(651, 354);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";
