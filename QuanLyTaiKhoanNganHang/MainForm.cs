@@ -243,12 +243,6 @@ namespace QuanLyTaiKhoanNganHang
             formKiemTraSoDu.Show();
         }
 
-        private void btnMayTinh_Click(object sender, EventArgs e)
-        {
-            FormMayTinh formMayTinh = new FormMayTinh();
-            formMayTinh.Show();
-        }
-
         private void btnThongBao_Click(object sender, EventArgs e)
         {
             foreach (Form form in this.MdiChildren)
