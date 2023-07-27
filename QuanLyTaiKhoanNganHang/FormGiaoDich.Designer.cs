@@ -92,7 +92,7 @@
             this.groupBox1.Controls.Add(this.txtSoTaiKhoan);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.button3);
-            this.groupBox1.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(0, 335);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
@@ -107,7 +107,7 @@
             this.GiaoDichGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.GiaoDichGV.BackgroundColor = System.Drawing.SystemColors.Control;
             this.GiaoDichGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.GiaoDichGV.Location = new System.Drawing.Point(613, 38);
+            this.GiaoDichGV.Location = new System.Drawing.Point(612, 38);
             this.GiaoDichGV.Margin = new System.Windows.Forms.Padding(4);
             this.GiaoDichGV.Name = "GiaoDichGV";
             this.GiaoDichGV.RowHeadersWidth = 51;
@@ -168,7 +168,7 @@
             this.txtCCCD.Location = new System.Drawing.Point(337, 218);
             this.txtCCCD.Margin = new System.Windows.Forms.Padding(4);
             this.txtCCCD.Name = "txtCCCD";
-            this.txtCCCD.Size = new System.Drawing.Size(253, 18);
+            this.txtCCCD.Size = new System.Drawing.Size(316, 19);
             this.txtCCCD.TabIndex = 106;
             // 
             // label4
@@ -200,7 +200,7 @@
             this.txtTenTaiKhoan.Location = new System.Drawing.Point(340, 41);
             this.txtTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtTenTaiKhoan.Name = "txtTenTaiKhoan";
-            this.txtTenTaiKhoan.Size = new System.Drawing.Size(250, 18);
+            this.txtTenTaiKhoan.Size = new System.Drawing.Size(313, 19);
             this.txtTenTaiKhoan.TabIndex = 97;
             // 
             // button8
@@ -234,7 +234,7 @@
             this.txtDiaChiEmail.Location = new System.Drawing.Point(337, 158);
             this.txtDiaChiEmail.Margin = new System.Windows.Forms.Padding(4);
             this.txtDiaChiEmail.Name = "txtDiaChiEmail";
-            this.txtDiaChiEmail.Size = new System.Drawing.Size(253, 18);
+            this.txtDiaChiEmail.Size = new System.Drawing.Size(316, 19);
             this.txtDiaChiEmail.TabIndex = 103;
             // 
             // txtSoTaiKhoan
@@ -244,7 +244,7 @@
             this.txtSoTaiKhoan.Location = new System.Drawing.Point(340, 98);
             this.txtSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoTaiKhoan.Name = "txtSoTaiKhoan";
-            this.txtSoTaiKhoan.Size = new System.Drawing.Size(250, 18);
+            this.txtSoTaiKhoan.Size = new System.Drawing.Size(313, 19);
             this.txtSoTaiKhoan.TabIndex = 99;
             // 
             // label8
@@ -331,7 +331,7 @@
             this.groupBox2.Controls.Add(this.cbbSoTaiKhoan);
             this.groupBox2.Controls.Add(this.label3);
             this.groupBox2.Controls.Add(this.label1);
-            this.groupBox2.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(16, 79);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
@@ -373,7 +373,7 @@
             this.btnLuuThongTinGiaoDich.Location = new System.Drawing.Point(320, 144);
             this.btnLuuThongTinGiaoDich.Margin = new System.Windows.Forms.Padding(4);
             this.btnLuuThongTinGiaoDich.Name = "btnLuuThongTinGiaoDich";
-            this.btnLuuThongTinGiaoDich.Size = new System.Drawing.Size(173, 47);
+            this.btnLuuThongTinGiaoDich.Size = new System.Drawing.Size(164, 47);
             this.btnLuuThongTinGiaoDich.TabIndex = 78;
             this.btnLuuThongTinGiaoDich.Text = "Lưu TT GD";
             this.btnLuuThongTinGiaoDich.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -457,7 +457,7 @@
             // groupBox3
             // 
             this.groupBox3.Controls.Add(this.txtGhiChu);
-            this.groupBox3.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.Location = new System.Drawing.Point(843, 91);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox3.Name = "groupBox3";

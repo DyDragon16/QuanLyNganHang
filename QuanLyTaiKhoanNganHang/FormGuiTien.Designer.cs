@@ -133,7 +133,7 @@
             this.groupBox1.Controls.Add(this.cbbSoTaiKhoan);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox1.Location = new System.Drawing.Point(19, 103);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
@@ -284,7 +284,7 @@
             this.groupBox2.Controls.Add(this.txtTenTaiKhoan);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox2.Location = new System.Drawing.Point(0, 361);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
@@ -419,7 +419,7 @@
             this.cbbSoTienMuonGui.Location = new System.Drawing.Point(761, 182);
             this.cbbSoTienMuonGui.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTienMuonGui.Name = "cbbSoTienMuonGui";
-            this.cbbSoTienMuonGui.Size = new System.Drawing.Size(275, 26);
+            this.cbbSoTienMuonGui.Size = new System.Drawing.Size(275, 24);
             this.cbbSoTienMuonGui.TabIndex = 29;
             this.cbbSoTienMuonGui.SelectedIndexChanged += new System.EventHandler(this.cbbSoTienMuonGui_SelectedIndexChanged);
             // 
@@ -649,7 +649,7 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.dgvDanhSachTaiKhoan);
-            this.groupBox3.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox3.Location = new System.Drawing.Point(528, 82);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);

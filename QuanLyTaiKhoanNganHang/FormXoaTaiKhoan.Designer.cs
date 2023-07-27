@@ -114,7 +114,7 @@
             this.groupBox1.Controls.Add(this.cbbSoTaiKhoan);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(16, 96);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
@@ -211,7 +211,7 @@
             this.groupBox2.Controls.Add(this.txtTenTaiKhoan);
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlText;
             this.groupBox2.Location = new System.Drawing.Point(16, 350);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
@@ -409,11 +409,11 @@
             this.btnXoaTaiKhoan.BackColor = System.Drawing.Color.Lime;
             this.btnXoaTaiKhoan.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnXoaTaiKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnXoaTaiKhoan.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnXoaTaiKhoan.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnXoaTaiKhoan.Location = new System.Drawing.Point(955, 363);
             this.btnXoaTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.btnXoaTaiKhoan.Name = "btnXoaTaiKhoan";
-            this.btnXoaTaiKhoan.Size = new System.Drawing.Size(260, 65);
+            this.btnXoaTaiKhoan.Size = new System.Drawing.Size(194, 65);
             this.btnXoaTaiKhoan.TabIndex = 78;
             this.btnXoaTaiKhoan.Text = "Xóa Tài Khoản";
             this.btnXoaTaiKhoan.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -439,7 +439,7 @@
             this.pictureBox2.Location = new System.Drawing.Point(955, 436);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(260, 148);
+            this.pictureBox2.Size = new System.Drawing.Size(194, 148);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 80;
             this.pictureBox2.TabStop = false;
