@@ -54,7 +54,7 @@
             this.txtSoTienChuSo = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
-            this.ptbTaiAnh = new System.Windows.Forms.PictureBox();
+            this.ptbAnh = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.txtSoTaiKhoan = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -71,7 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.groupBox2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbTaiAnh)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbAnh)).BeginInit();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MayTinh)).BeginInit();
@@ -89,7 +89,7 @@
             this.groupBox1.Controls.Add(this.cbbSoTaiKhoan);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(16, 97);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
@@ -156,7 +156,7 @@
             this.cbbTenTaiKhoan.Location = new System.Drawing.Point(155, 97);
             this.cbbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTenTaiKhoan.Name = "cbbTenTaiKhoan";
-            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 28);
+            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 26);
             this.cbbTenTaiKhoan.TabIndex = 28;
             // 
             // cbbSoTaiKhoan
@@ -166,7 +166,7 @@
             this.cbbSoTaiKhoan.Location = new System.Drawing.Point(155, 46);
             this.cbbSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTaiKhoan.Name = "cbbSoTaiKhoan";
-            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 28);
+            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 26);
             this.cbbSoTaiKhoan.TabIndex = 27;
             // 
             // label3
@@ -209,14 +209,14 @@
             this.groupBox2.Controls.Add(this.txtSoTienChuSo);
             this.groupBox2.Controls.Add(this.label8);
             this.groupBox2.Controls.Add(this.button5);
-            this.groupBox2.Controls.Add(this.ptbTaiAnh);
+            this.groupBox2.Controls.Add(this.ptbAnh);
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.txtSoTaiKhoan);
             this.groupBox2.Controls.Add(this.button1);
             this.groupBox2.Controls.Add(this.txtTenTaiKhoan);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Font = new System.Drawing.Font("Modern No. 20", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(505, 97);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
@@ -407,17 +407,17 @@
             this.button5.TabIndex = 139;
             this.button5.UseVisualStyleBackColor = false;
             // 
-            // ptbTaiAnh
+            // ptbAnh
             // 
-            this.ptbTaiAnh.BackColor = System.Drawing.Color.White;
-            this.ptbTaiAnh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.ptbTaiAnh.Location = new System.Drawing.Point(43, 58);
-            this.ptbTaiAnh.Margin = new System.Windows.Forms.Padding(4);
-            this.ptbTaiAnh.Name = "ptbTaiAnh";
-            this.ptbTaiAnh.Size = new System.Drawing.Size(161, 180);
-            this.ptbTaiAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.ptbTaiAnh.TabIndex = 148;
-            this.ptbTaiAnh.TabStop = false;
+            this.ptbAnh.BackColor = System.Drawing.Color.White;
+            this.ptbAnh.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ptbAnh.Location = new System.Drawing.Point(43, 58);
+            this.ptbAnh.Margin = new System.Windows.Forms.Padding(4);
+            this.ptbAnh.Name = "ptbAnh";
+            this.ptbAnh.Size = new System.Drawing.Size(161, 180);
+            this.ptbAnh.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.ptbAnh.TabIndex = 148;
+            this.ptbAnh.TabStop = false;
             // 
             // button3
             // 
@@ -518,12 +518,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.White;
-            this.label6.Location = new System.Drawing.Point(345, 6);
+            this.label6.Font = new System.Drawing.Font("UTM Micra", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.Black;
+            this.label6.Location = new System.Drawing.Point(323, 9);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(263, 38);
+            this.label6.Size = new System.Drawing.Size(404, 41);
             this.label6.TabIndex = 1;
             this.label6.Text = "Kiểm Tra Số Dư";
             // 
@@ -580,7 +580,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ptbTaiAnh)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ptbAnh)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -615,7 +615,7 @@
         private System.Windows.Forms.TextBox txtSoTienChuSo;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.PictureBox ptbTaiAnh;
+        private System.Windows.Forms.PictureBox ptbAnh;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.TextBox txtSoTaiKhoan;
         private System.Windows.Forms.Button button1;

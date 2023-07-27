@@ -90,7 +90,7 @@
             this.groupBox1.Controls.Add(this.btnKiemTra);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox1.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(28, 80);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
@@ -141,7 +141,7 @@
             this.cbbTenTaiKhoan.Location = new System.Drawing.Point(174, 101);
             this.cbbTenTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbTenTaiKhoan.Name = "cbbTenTaiKhoan";
-            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 28);
+            this.cbbTenTaiKhoan.Size = new System.Drawing.Size(264, 26);
             this.cbbTenTaiKhoan.TabIndex = 28;
             // 
             // cbbSoTaiKhoan
@@ -151,7 +151,7 @@
             this.cbbSoTaiKhoan.Location = new System.Drawing.Point(174, 59);
             this.cbbSoTaiKhoan.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTaiKhoan.Name = "cbbSoTaiKhoan";
-            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 28);
+            this.cbbSoTaiKhoan.Size = new System.Drawing.Size(264, 26);
             this.cbbSoTaiKhoan.TabIndex = 27;
             // 
             // btnKiemTra
@@ -195,7 +195,7 @@
             // 
             this.groupBox3.BackColor = System.Drawing.Color.Transparent;
             this.groupBox3.Controls.Add(this.SoDuTaiKhoanGV);
-            this.groupBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox3.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Black;
             this.groupBox3.Location = new System.Drawing.Point(28, 353);
             this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
@@ -247,12 +247,12 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(363, 19);
+            this.label2.Font = new System.Drawing.Font("UTM Micra", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.Black;
+            this.label2.Location = new System.Drawing.Point(259, 21);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(437, 38);
+            this.label2.Size = new System.Drawing.Size(687, 38);
             this.label2.TabIndex = 1;
             this.label2.Text = "Rút Tiền - Trong Tài Khoản";
             // 
@@ -320,19 +320,19 @@
             this.cbbSoTienCanRut.Location = new System.Drawing.Point(212, 59);
             this.cbbSoTienCanRut.Margin = new System.Windows.Forms.Padding(4);
             this.cbbSoTienCanRut.Name = "cbbSoTienCanRut";
-            this.cbbSoTienCanRut.Size = new System.Drawing.Size(264, 33);
+            this.cbbSoTienCanRut.Size = new System.Drawing.Size(264, 26);
             this.cbbSoTienCanRut.TabIndex = 82;
             // 
             // lblDataTimeNow
             // 
             this.lblDataTimeNow.AutoSize = true;
             this.lblDataTimeNow.BackColor = System.Drawing.Color.Transparent;
-            this.lblDataTimeNow.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDataTimeNow.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.lblDataTimeNow.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDataTimeNow.ForeColor = System.Drawing.Color.Black;
             this.lblDataTimeNow.Location = new System.Drawing.Point(208, 119);
             this.lblDataTimeNow.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDataTimeNow.Name = "lblDataTimeNow";
-            this.lblDataTimeNow.Size = new System.Drawing.Size(137, 20);
+            this.lblDataTimeNow.Size = new System.Drawing.Size(189, 18);
             this.lblDataTimeNow.TabIndex = 115;
             this.lblDataTimeNow.Text = "day/month/year";
             // 
@@ -346,7 +346,7 @@
             this.groupBox2.Controls.Add(this.label5);
             this.groupBox2.Controls.Add(this.lblDataTimeNow);
             this.groupBox2.Controls.Add(this.cbbSoTienCanRut);
-            this.groupBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox2.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox2.Location = new System.Drawing.Point(546, 80);
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox2.Name = "groupBox2";
@@ -429,7 +429,7 @@
             this.groupBox4.Controls.Add(this.txtSoTienHienTai);
             this.groupBox4.Controls.Add(this.txtSoTienChuSo);
             this.groupBox4.Controls.Add(this.button5);
-            this.groupBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupBox4.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox4.Location = new System.Drawing.Point(651, 354);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox4.Name = "groupBox4";

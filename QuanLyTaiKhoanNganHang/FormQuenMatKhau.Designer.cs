@@ -52,12 +52,12 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("UTM Micra", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(79, 157);
+            this.label2.Location = new System.Drawing.Point(66, 150);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(387, 42);
+            this.label2.Size = new System.Drawing.Size(433, 38);
             this.label2.TabIndex = 49;
             this.label2.Text = "LẤY LẠI MẬT KHẨU";
             // 
@@ -76,15 +76,15 @@
             // 
             // btnLayLaiMatKhau
             // 
-            this.btnLayLaiMatKhau.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnLayLaiMatKhau.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btnLayLaiMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnLayLaiMatKhau.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLayLaiMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLayLaiMatKhau.ForeColor = System.Drawing.Color.White;
-            this.btnLayLaiMatKhau.Location = new System.Drawing.Point(127, 345);
+            this.btnLayLaiMatKhau.Location = new System.Drawing.Point(209, 346);
             this.btnLayLaiMatKhau.Margin = new System.Windows.Forms.Padding(4);
             this.btnLayLaiMatKhau.Name = "btnLayLaiMatKhau";
-            this.btnLayLaiMatKhau.Size = new System.Drawing.Size(172, 58);
+            this.btnLayLaiMatKhau.Size = new System.Drawing.Size(153, 58);
             this.btnLayLaiMatKhau.TabIndex = 44;
             this.btnLayLaiMatKhau.Text = "Khôi Phục";
             this.btnLayLaiMatKhau.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -106,7 +106,7 @@
             // 
             // txtEmailDangKy
             // 
-            this.txtEmailDangKy.BackColor = System.Drawing.Color.Silver;
+            this.txtEmailDangKy.BackColor = System.Drawing.Color.White;
             this.txtEmailDangKy.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtEmailDangKy.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtEmailDangKy.Location = new System.Drawing.Point(196, 232);
@@ -119,7 +119,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(50, 231);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -132,7 +132,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(92, 267);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -156,7 +156,7 @@
             // 
             // txtCCCD
             // 
-            this.txtCCCD.BackColor = System.Drawing.Color.Silver;
+            this.txtCCCD.BackColor = System.Drawing.Color.White;
             this.txtCCCD.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtCCCD.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtCCCD.Location = new System.Drawing.Point(196, 272);
@@ -173,7 +173,7 @@
             this.btnQuayLai.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnQuayLai.FlatAppearance.BorderSize = 0;
             this.btnQuayLai.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnQuayLai.Location = new System.Drawing.Point(307, 346);
+            this.btnQuayLai.Location = new System.Drawing.Point(370, 346);
             this.btnQuayLai.Margin = new System.Windows.Forms.Padding(4);
             this.btnQuayLai.Name = "btnQuayLai";
             this.btnQuayLai.Size = new System.Drawing.Size(81, 58);
@@ -195,9 +195,9 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(141, 355);
+            this.pictureBox3.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.pictureBox3.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.restorepass;
+            this.pictureBox3.Location = new System.Drawing.Point(215, 356);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(47, 39);

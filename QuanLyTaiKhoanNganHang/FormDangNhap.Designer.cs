@@ -61,16 +61,16 @@
             // 
             // btnDangNhap
             // 
-            this.btnDangNhap.BackColor = System.Drawing.Color.Blue;
+            this.btnDangNhap.BackColor = System.Drawing.SystemColors.HotTrack;
             this.btnDangNhap.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnDangNhap.FlatAppearance.BorderSize = 0;
             this.btnDangNhap.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDangNhap.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDangNhap.ForeColor = System.Drawing.Color.White;
-            this.btnDangNhap.Location = new System.Drawing.Point(165, 409);
+            this.btnDangNhap.Location = new System.Drawing.Point(190, 409);
             this.btnDangNhap.Margin = new System.Windows.Forms.Padding(4);
             this.btnDangNhap.Name = "btnDangNhap";
-            this.btnDangNhap.Size = new System.Drawing.Size(205, 48);
+            this.btnDangNhap.Size = new System.Drawing.Size(148, 46);
             this.btnDangNhap.TabIndex = 51;
             this.btnDangNhap.Text = "Đăng Nhập";
             this.btnDangNhap.UseVisualStyleBackColor = false;
@@ -82,6 +82,7 @@
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label5.Location = new System.Drawing.Point(91, 334);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
@@ -94,6 +95,7 @@
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label9.Location = new System.Drawing.Point(91, 254);
             this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label9.Name = "label9";
@@ -129,7 +131,7 @@
             this.txtQuenMatKhau.Cursor = System.Windows.Forms.Cursors.Hand;
             this.txtQuenMatKhau.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtQuenMatKhau.ForeColor = System.Drawing.Color.Blue;
-            this.txtQuenMatKhau.Location = new System.Drawing.Point(185, 483);
+            this.txtQuenMatKhau.Location = new System.Drawing.Point(185, 469);
             this.txtQuenMatKhau.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.txtQuenMatKhau.Name = "txtQuenMatKhau";
             this.txtQuenMatKhau.Size = new System.Drawing.Size(162, 25);
@@ -165,6 +167,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.Location = new System.Drawing.Point(183, 202);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
