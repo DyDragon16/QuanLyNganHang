@@ -434,7 +434,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.deleted_account;
-            this.pictureBox2.Location = new System.Drawing.Point(955, 425);
+            this.pictureBox2.Location = new System.Drawing.Point(955, 436);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(217, 148);

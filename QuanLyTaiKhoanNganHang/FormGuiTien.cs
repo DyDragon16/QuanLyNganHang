@@ -121,7 +121,7 @@ namespace QuanLyTaiKhoanNganHang
         private void ThongTinGiaoDichGuiTien()
         {
             string soTaiKhoan = txtSoTaiKhoan.Text;
-            decimal soTien = decimal.Parse(txtSoTienMuonGui.Text);
+            decimal soTien = decimal.Parse(cbbSoTienMuonGui.Text);
 
             string insertQuery = "INSERT INTO GiaoDichGuiTien (SoTaiKhoan, SoTien, NgayGiaoDich, GioGiaoDich) " +
                 "VALUES (@SoTaiKhoan, @SoTien, @NgayGiaoDich, @GioGiaoDich)";
@@ -143,13 +143,13 @@ namespace QuanLyTaiKhoanNganHang
                 connection.Close();
             }
 
-            txtSoTienMuonGui.Text = string.Empty;
+            cbbSoTienMuonGui.Text = string.Empty;
         }
 
 
         private void btnGuiTien_Click(object sender, EventArgs e)
         {
-            if (txtTenTaiKhoan.Text == "" || txtSoTaiKhoan.Text == "" || txtCCCD.Text == "" || txtSoTaiKhoan.Text == "" || txtSoTienMuonGui.Text == "")
+            if (txtTenTaiKhoan.Text == "" || txtSoTaiKhoan.Text == "" || txtCCCD.Text == "" || txtSoTaiKhoan.Text == "" || cbbSoTienMuonGui.Text == "")
             {
                 MessageBox.Show("Hãy điền đầy đủ thông tin.");
             } else
@@ -174,7 +174,7 @@ namespace QuanLyTaiKhoanNganHang
                         command = new SqlCommand(query, Con);
 
                         command.Parameters.AddWithValue("@TenTaiKhoan", txtTenTaiKhoan.Text);
-                        string SoTienMuonGui = string.IsNullOrEmpty(txtSoTienMuonGui.Text) ? txtSoTienMuonGui.SelectedItem.ToString() : txtSoTienMuonGui.Text;
+                        string SoTienMuonGui = string.IsNullOrEmpty(cbbSoTienMuonGui.Text) ? cbbSoTienMuonGui.SelectedItem.ToString() : cbbSoTienMuonGui.Text;
                         string kp = (int.Parse(txtSoTienHienTai.Text) + int.Parse(SoTienMuonGui)).ToString();
                         command.Parameters.AddWithValue("@SoTienHienTai", kp);
 
@@ -204,7 +204,7 @@ namespace QuanLyTaiKhoanNganHang
                         command.Parameters.AddWithValue("@SoTaiKhoan", txtSoTaiKhoan.Text);
                         command.Parameters.AddWithValue("@CCCD", txtCCCD.Text);
 
-                        string SoTienMuonGui = string.IsNullOrEmpty(txtSoTienMuonGui.Text) ? txtSoTienMuonGui.SelectedItem.ToString() : txtSoTienMuonGui.Text;
+                        string SoTienMuonGui = string.IsNullOrEmpty(cbbSoTienMuonGui.Text) ? cbbSoTienMuonGui.SelectedItem.ToString() : cbbSoTienMuonGui.Text;
                         command.Parameters.AddWithValue("@SoTienHienTai", SoTienMuonGui);
 
                         command.ExecuteNonQuery();
@@ -245,10 +245,10 @@ namespace QuanLyTaiKhoanNganHang
 
         private void txtSoTienHienTai_TextChanged(object sender, EventArgs e)
         {
-            txtSoTienChuSo1.Text = ConvertNumber.ConvertNumberToVietnamese(txtSoTienHienTai.Text);
+            txtSoTienChuSo.Text = ConvertNumber.ConvertNumberToVietnamese(txtSoTienHienTai.Text);
         }
 
-        private void txtSoTienMuonGui_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbbSoTienMuonGui_SelectedIndexChanged(object sender, EventArgs e)
         {
             
         }

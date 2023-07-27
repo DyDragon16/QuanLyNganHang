@@ -59,13 +59,15 @@
             this.txtTenTaiKhoan = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.txtSoTienMuonChuyen = new System.Windows.Forms.ComboBox();
+            this.cbbSoTienMuonChuyen = new System.Windows.Forms.ComboBox();
             this.btnChuyenTien = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.button5 = new System.Windows.Forms.Button();
             this.txtSoTienHienTai = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.txtNoidungchuyentien = new System.Windows.Forms.TextBox();
+            this.label13 = new System.Windows.Forms.Label();
             this.btnMayTinh = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
@@ -73,8 +75,6 @@
             this.label10 = new System.Windows.Forms.Label();
             this.txtSoTienChuSo = new System.Windows.Forms.TextBox();
             this.cbbDenTaiKhoan = new System.Windows.Forms.ComboBox();
-            this.label13 = new System.Windows.Forms.Label();
-            this.txtNoidungchuyentien = new System.Windows.Forms.TextBox();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -459,10 +459,10 @@
             this.label5.TabIndex = 0;
             this.label5.Text = "Tên tài khoản:";
             // 
-            // txtSoTienMuonChuyen
+            // cbbSoTienMuonChuyen
             // 
-            this.txtSoTienMuonChuyen.FormattingEnabled = true;
-            this.txtSoTienMuonChuyen.Items.AddRange(new object[] {
+            this.cbbSoTienMuonChuyen.FormattingEnabled = true;
+            this.cbbSoTienMuonChuyen.Items.AddRange(new object[] {
             "10000",
             "20000",
             "30000",
@@ -509,11 +509,11 @@
             "800000000",
             "900000000",
             "1000000000"});
-            this.txtSoTienMuonChuyen.Location = new System.Drawing.Point(172, 175);
-            this.txtSoTienMuonChuyen.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSoTienMuonChuyen.Name = "txtSoTienMuonChuyen";
-            this.txtSoTienMuonChuyen.Size = new System.Drawing.Size(282, 28);
-            this.txtSoTienMuonChuyen.TabIndex = 29;
+            this.cbbSoTienMuonChuyen.Location = new System.Drawing.Point(172, 175);
+            this.cbbSoTienMuonChuyen.Margin = new System.Windows.Forms.Padding(4);
+            this.cbbSoTienMuonChuyen.Name = "cbbSoTienMuonChuyen";
+            this.cbbSoTienMuonChuyen.Size = new System.Drawing.Size(282, 28);
+            this.cbbSoTienMuonChuyen.TabIndex = 29;
             // 
             // btnChuyenTien
             // 
@@ -591,7 +591,7 @@
             this.groupBox4.Controls.Add(this.txtSoTienChuSo);
             this.groupBox4.Controls.Add(this.cbbDenTaiKhoan);
             this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Controls.Add(this.txtSoTienMuonChuyen);
+            this.groupBox4.Controls.Add(this.cbbSoTienMuonChuyen);
             this.groupBox4.Controls.Add(this.label7);
             this.groupBox4.Controls.Add(this.button5);
             this.groupBox4.Controls.Add(this.btnChuyenTien);
@@ -606,6 +606,23 @@
             this.groupBox4.TabIndex = 84;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "Chuyển Tiền Đến Tài Khoản";
+            // 
+            // txtNoidungchuyentien
+            // 
+            this.txtNoidungchuyentien.Location = new System.Drawing.Point(172, 224);
+            this.txtNoidungchuyentien.Name = "txtNoidungchuyentien";
+            this.txtNoidungchuyentien.Size = new System.Drawing.Size(282, 26);
+            this.txtNoidungchuyentien.TabIndex = 92;
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(8, 232);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(75, 18);
+            this.label13.TabIndex = 91;
+            this.label13.Text = "Nội dung";
             // 
             // btnMayTinh
             // 
@@ -691,23 +708,6 @@
             this.cbbDenTaiKhoan.Size = new System.Drawing.Size(282, 28);
             this.cbbDenTaiKhoan.TabIndex = 84;
             // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.Location = new System.Drawing.Point(8, 232);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(75, 18);
-            this.label13.TabIndex = 91;
-            this.label13.Text = "Nội dung";
-            // 
-            // txtNoidungchuyentien
-            // 
-            this.txtNoidungchuyentien.Location = new System.Drawing.Point(172, 224);
-            this.txtNoidungchuyentien.Name = "txtNoidungchuyentien";
-            this.txtNoidungchuyentien.Size = new System.Drawing.Size(282, 26);
-            this.txtNoidungchuyentien.TabIndex = 92;
-            // 
             // FormChuyenTien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -762,7 +762,7 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.DataGridView SoDuTaiKhoanGV;
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox txtSoTienMuonChuyen;
+        private System.Windows.Forms.ComboBox cbbSoTienMuonChuyen;
         private System.Windows.Forms.Button btnChuyenTien;
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.TextBox txtCCCD;

@@ -30,7 +30,6 @@ namespace QuanLyTaiKhoanNganHang
             ConnecTaiKhoan();
         }
 
-
         private string GenerateAccountNumber(string customerName)
         {
             long accountNumber = GenerateRandomNumber(); // Tạo số tài khoản ngân hàng ngẫu nhiên
@@ -173,7 +172,7 @@ namespace QuanLyTaiKhoanNganHang
                         MessageBox.Show("Tạo Tài Khoản (" + txtTenTaiKhoan.Text + ") Thành Công.");
                     } catch 
                     {
-                        MessageBox.Show("Tạo Tài Khoản Thất Bại. Ngày Sinh Không Phù Hợp Hoặc Chưa Cập Nhật Ảnh." , "Error: Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Tạo Tài Khoản Thất Bại. THông tin không hợp lệ hoặc thiếu ảnh" , "Error: Lỗi", MessageBoxButtons.OK, MessageBoxIcon.Error);
                         command.Dispose();
                         Con.Close();
                         return;

@@ -22,7 +22,7 @@ namespace QuanLyTaiKhoanNganHang
             timer1.Start();
 
             // Khởi tạo và cấu hình Timer
-            timer = new Timer();
+            timer = new System.Windows.Forms.Timer();
             timer.Interval = delay;
             timer.Tick += Timer_Tick;
 
@@ -45,7 +45,6 @@ namespace QuanLyTaiKhoanNganHang
             }
         }
 
-
         // thêm dòng chữ chạy
         private string[] texts = new string[]
         {
@@ -55,7 +54,7 @@ namespace QuanLyTaiKhoanNganHang
         };
 
         private int currentIndex = 0;
-        private Timer timer;
+        private System.Windows.Forms.Timer timer;
         private int delay = 2000; // Khoảng thời gian (milisecond) giữa mỗi dòng chữ
 
         private void Timer_Tick(object sender, EventArgs e)

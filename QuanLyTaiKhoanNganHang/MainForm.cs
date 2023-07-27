@@ -158,21 +158,6 @@ namespace QuanLyTaiKhoanNganHang
             formTaoTaiKhoan.Show();
         }
 
-        private void btnDangXuat_Click(object sender, EventArgs e)
-        {
-            DialogResult dialog = MessageBox.Show("Bạn Có Chắc Chắn Muốn Đăng Xuất.",
-                "Xác Nhận",
-                MessageBoxButtons.YesNo,
-                MessageBoxIcon.Warning);
-
-            if (dialog == DialogResult.Yes)
-            {
-                this.Hide();
-                FormDangNhap form = new FormDangNhap();
-                form.Show();
-            }
-        }
-
         private void đăngXuấtToolStripMenuItem_Click(object sender, EventArgs e)
         {
             DialogResult dialog = MessageBox.Show("Bạn Có Chắc Chắn Muốn Đăng Xuất.",
@@ -183,8 +168,8 @@ namespace QuanLyTaiKhoanNganHang
             if (dialog == DialogResult.Yes)
             {
                 this.Hide();
-                FormDangNhap form = new FormDangNhap();
-                form.Show();
+                FormDangNhap formDangNhap = new FormDangNhap();
+                formDangNhap.Show();
             }
         }
 
@@ -198,8 +183,8 @@ namespace QuanLyTaiKhoanNganHang
             if (dialog == DialogResult.Yes)
             {
                 this.Hide();
-                FormDangNhap form = new FormDangNhap();
-                form.Show();
+                FormDangNhap formDangNhap = new FormDangNhap();
+                formDangNhap.Show();
             }
         }
 

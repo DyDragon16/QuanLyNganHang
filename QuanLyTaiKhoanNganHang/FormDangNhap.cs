@@ -40,7 +40,7 @@ namespace QuanLyTaiKhoanNganHang
             {
                 MessageBox.Show("Vui lòng nhập mật khẩu.");
                 return;
-            } 
+            }
             else if (taiKhoan == "admin" && matKhau == "admin")
             {
                 FormBatDau formBatDau = new FormBatDau();
@@ -48,10 +48,6 @@ namespace QuanLyTaiKhoanNganHang
                 txtTaiKhoan.Text = "";
                 txtMatKhau.Text = "";
                 this.Hide();
-            }
-            else
-            {
-                MessageBox.Show("Tài khoản đăng nhập không đúng.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
         }
 

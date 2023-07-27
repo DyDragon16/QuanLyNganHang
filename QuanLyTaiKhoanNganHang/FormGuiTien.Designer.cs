@@ -49,8 +49,8 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.txtSoTienChuSo1 = new System.Windows.Forms.TextBox();
-            this.txtSoTienMuonGui = new System.Windows.Forms.ComboBox();
+            this.txtSoTienChuSo = new System.Windows.Forms.TextBox();
+            this.cbbSoTienMuonGui = new System.Windows.Forms.ComboBox();
             this.btnGuiTien = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
             this.txtCCCD = new System.Windows.Forms.TextBox();
@@ -264,8 +264,8 @@
             this.groupBox2.Controls.Add(this.label10);
             this.groupBox2.Controls.Add(this.label11);
             this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.txtSoTienChuSo1);
-            this.groupBox2.Controls.Add(this.txtSoTienMuonGui);
+            this.groupBox2.Controls.Add(this.txtSoTienChuSo);
+            this.groupBox2.Controls.Add(this.cbbSoTienMuonGui);
             this.groupBox2.Controls.Add(this.btnGuiTien);
             this.groupBox2.Controls.Add(this.button9);
             this.groupBox2.Controls.Add(this.txtCCCD);
@@ -372,22 +372,22 @@
             this.button1.TabIndex = 91;
             this.button1.UseVisualStyleBackColor = false;
             // 
-            // txtSoTienChuSo1
+            // txtSoTienChuSo
             // 
-            this.txtSoTienChuSo1.BackColor = System.Drawing.SystemColors.Control;
-            this.txtSoTienChuSo1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.txtSoTienChuSo1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtSoTienChuSo1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.txtSoTienChuSo1.Location = new System.Drawing.Point(761, 117);
-            this.txtSoTienChuSo1.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSoTienChuSo1.Name = "txtSoTienChuSo1";
-            this.txtSoTienChuSo1.Size = new System.Drawing.Size(311, 19);
-            this.txtSoTienChuSo1.TabIndex = 90;
+            this.txtSoTienChuSo.BackColor = System.Drawing.SystemColors.Control;
+            this.txtSoTienChuSo.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtSoTienChuSo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtSoTienChuSo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.txtSoTienChuSo.Location = new System.Drawing.Point(761, 117);
+            this.txtSoTienChuSo.Margin = new System.Windows.Forms.Padding(4);
+            this.txtSoTienChuSo.Name = "txtSoTienChuSo";
+            this.txtSoTienChuSo.Size = new System.Drawing.Size(311, 19);
+            this.txtSoTienChuSo.TabIndex = 90;
             // 
-            // txtSoTienMuonGui
+            // cbbSoTienMuonGui
             // 
-            this.txtSoTienMuonGui.FormattingEnabled = true;
-            this.txtSoTienMuonGui.Items.AddRange(new object[] {
+            this.cbbSoTienMuonGui.FormattingEnabled = true;
+            this.cbbSoTienMuonGui.Items.AddRange(new object[] {
             "10000",
             "20000",
             "30000",
@@ -416,12 +416,12 @@
             "8000000",
             "9000000",
             "10000000"});
-            this.txtSoTienMuonGui.Location = new System.Drawing.Point(761, 182);
-            this.txtSoTienMuonGui.Margin = new System.Windows.Forms.Padding(4);
-            this.txtSoTienMuonGui.Name = "txtSoTienMuonGui";
-            this.txtSoTienMuonGui.Size = new System.Drawing.Size(275, 28);
-            this.txtSoTienMuonGui.TabIndex = 29;
-            this.txtSoTienMuonGui.SelectedIndexChanged += new System.EventHandler(this.txtSoTienMuonGui_SelectedIndexChanged);
+            this.cbbSoTienMuonGui.Location = new System.Drawing.Point(761, 182);
+            this.cbbSoTienMuonGui.Margin = new System.Windows.Forms.Padding(4);
+            this.cbbSoTienMuonGui.Name = "cbbSoTienMuonGui";
+            this.cbbSoTienMuonGui.Size = new System.Drawing.Size(275, 28);
+            this.cbbSoTienMuonGui.TabIndex = 29;
+            this.cbbSoTienMuonGui.SelectedIndexChanged += new System.EventHandler(this.cbbSoTienMuonGui_SelectedIndexChanged);
             // 
             // btnGuiTien
             // 
@@ -741,10 +741,10 @@
         private System.Windows.Forms.ComboBox cbbTenTaiKhoan;
         private System.Windows.Forms.ComboBox cbbSoTaiKhoan;
         private System.Windows.Forms.Button btnGuiTien;
-        private System.Windows.Forms.ComboBox txtSoTienMuonGui;
+        private System.Windows.Forms.ComboBox cbbSoTienMuonGui;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox txtSoTienChuSo1;
+        private System.Windows.Forms.TextBox txtSoTienChuSo;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox4;

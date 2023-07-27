@@ -153,7 +153,7 @@ namespace QuanLyTaiKhoanNganHang
                 sqlConnection.Open();
                 SqlCommand updateCommand = new SqlCommand(query, sqlConnection);
 
-                string SoTienMuonChuyen = string.IsNullOrEmpty(txtSoTienMuonChuyen.Text) ? txtSoTienMuonChuyen.SelectedItem.ToString() : txtSoTienMuonChuyen.Text;
+                string SoTienMuonChuyen = string.IsNullOrEmpty(cbbSoTienMuonChuyen.Text) ? cbbSoTienMuonChuyen.SelectedItem.ToString() : cbbSoTienMuonChuyen.Text;
 
                 string ketqua = (int.Parse(txtSoTienHienTai.Text) - int.Parse(SoTienMuonChuyen)).ToString();
                 updateCommand.Parameters.AddWithValue("@TenTaiKhoan", txtTenTaiKhoan.Text);
@@ -176,7 +176,7 @@ namespace QuanLyTaiKhoanNganHang
 
                 string DenTaiKhoan = string.IsNullOrEmpty(cbbDenTaiKhoan.Text) ? cbbDenTaiKhoan.SelectedItem.ToString() : cbbDenTaiKhoan.Text;
 
-                string ketqua = (int.Parse(getSoTienHienTai(DenTaiKhoan)) + int.Parse(txtSoTienMuonChuyen.Text)).ToString();
+                string ketqua = (int.Parse(getSoTienHienTai(DenTaiKhoan)) + int.Parse(cbbSoTienMuonChuyen.Text)).ToString();
 
                 updateCommand.Parameters.AddWithValue("@SoTaiKhoan", DenTaiKhoan);
                 updateCommand.Parameters.AddWithValue("@SoTienHienTai", ketqua);
@@ -190,7 +190,7 @@ namespace QuanLyTaiKhoanNganHang
         private void ThongTinGiaoDichChuyenTien()
         {
             string soTaiKhoan = txtSoTaiKhoan.Text;
-            decimal soTien = decimal.Parse(txtSoTienMuonChuyen.Text);
+            decimal soTien = decimal.Parse(cbbSoTienMuonChuyen.Text);
 
             string insertQuery = "INSERT INTO GiaoDichChuyenTien (SoTaiKhoan, SoTien, NgayGiaoDich, GioGiaoDich) " +
                 "VALUES (@SoTaiKhoan, @SoTien, @NgayGiaoDich, @GioGiaoDich)";
@@ -216,7 +216,7 @@ namespace QuanLyTaiKhoanNganHang
 
         private void btnChuyenTien_Click(object sender, EventArgs e)
         {
-            if (txtTenTaiKhoan.Text == "" || txtSoTaiKhoan.Text == "" || txtCCCD.Text == "" || txtSoTaiKhoan.Text == "" || txtSoTienMuonChuyen.Text == "" || cbbDenTaiKhoan.Text == "")
+            if (txtTenTaiKhoan.Text == "" || txtSoTaiKhoan.Text == "" || txtCCCD.Text == "" || txtSoTaiKhoan.Text == "" || cbbSoTienMuonChuyen.Text == "" || cbbDenTaiKhoan.Text == "")
             {
                 MessageBox.Show("Hãy điền đầy đủ thông tin.");
             }
@@ -229,7 +229,7 @@ namespace QuanLyTaiKhoanNganHang
 
                 if (dialogResult == DialogResult.Yes)
                 {
-                    if (int.Parse(txtSoTienHienTai.Text) < int.Parse(txtSoTienMuonChuyen.Text))
+                    if (int.Parse(txtSoTienHienTai.Text) < int.Parse(cbbSoTienMuonChuyen.Text))
                     {
                         MessageBox.Show("Số tiền muốn chuyển quá lớn.",
                             "Xác Nhận",
@@ -245,7 +245,7 @@ namespace QuanLyTaiKhoanNganHang
                         string chuyentien = "Đã Chuyển Tiền Vào Tài Khoản (" + txtTenTaiKhoan.Text + ") Thành Công.\n" +
                             "\n\n\t- Hóa Đơn: " +
                             "\n\n\t+ Tài Khoản: " + txtSoTaiKhoan.Text +
-                            "\n\n\t+ Số Tiền Chuyển: " + txtSoTienMuonChuyen.Text +
+                            "\n\n\t+ Số Tiền Chuyển: " + cbbSoTienMuonChuyen.Text +
                             "\n\n\t+ Số Tiền Hiện Tại: " + txtSoTienHienTai.Text +
                             "\n\n\t+ " + txtSoTienChuSo.Text +
                             "\n\n\t+ Ngày Gửi: " + DateTime.Now.ToString("dd/MM/yyyy") +
@@ -253,7 +253,7 @@ namespace QuanLyTaiKhoanNganHang
                             "\n\n";
                         MessageBox.Show(chuyentien);
 
-                        txtSoTienMuonChuyen.Text = string.Empty;
+                        cbbSoTienMuonChuyen.Text = string.Empty;
                     }
                 }
                 ConnecSoDuTaiKhoan();
