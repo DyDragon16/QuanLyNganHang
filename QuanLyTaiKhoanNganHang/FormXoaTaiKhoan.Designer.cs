@@ -424,7 +424,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Lime;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(967, 375);
+            this.pictureBox1.Location = new System.Drawing.Point(957, 375);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(49, 42);
