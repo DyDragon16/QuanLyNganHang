@@ -43,11 +43,25 @@ namespace QuanLyTaiKhoanNganHang
             }
             else if (taiKhoan == "admin" && matKhau == "admin")
             {
-                FormBatDau formBatDau = new FormBatDau();
-                formBatDau.Show();
+                MainForm mainForm = new MainForm();
+                mainForm.Show();
                 txtTaiKhoan.Text = "";
                 txtMatKhau.Text = "";
                 this.Hide();
+            }
+            else
+            {
+                string query = "SELECT * FROM TaiKhoan WHERE TenTaiKhoan = '" + taiKhoan + "' AND MatKhau = '" + matKhau + "'";
+                if (new Modify().TaiKhoans(query).Count != 0)
+                {
+                    FormKhachHang formKhachHang = new FormKhachHang();
+                    formKhachHang.Show();
+                    this.Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Tài khoản đăng nhập không đúng.", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                }
             }
         }
 

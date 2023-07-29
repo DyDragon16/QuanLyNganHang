@@ -147,7 +147,7 @@ namespace QuanLyTaiKhoanNganHang
             formGiaoDich.Show();
         }
 
-        private void btnTaotaikhoan_Click(object sender, EventArgs e)
+        public void btnTaotaikhoan_Click(object sender, EventArgs e)
         {
             foreach (Form form in this.MdiChildren)
             {
