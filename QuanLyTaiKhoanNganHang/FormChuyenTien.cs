@@ -117,7 +117,6 @@ namespace QuanLyTaiKhoanNganHang
         private void FormChuyenTien_Load(object sender, EventArgs e)
         {
             ConnecSoDuTaiKhoan();
-            LoadDataToComboBoxThongTinTaiKhoan();
         }
 
 

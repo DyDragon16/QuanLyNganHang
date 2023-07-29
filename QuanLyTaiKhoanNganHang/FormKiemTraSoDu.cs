@@ -48,7 +48,6 @@ namespace QuanLyTaiKhoanNganHang
 
         private void FormKiemTraSoDu_Load(object sender, EventArgs e)
         {
-            LoadDataToComboBoxThongTinTaiKhoan();
         }
 
         private void btnKiemTraSoDuTK_Click(object sender, EventArgs e)
@@ -71,8 +70,6 @@ namespace QuanLyTaiKhoanNganHang
                     txtTenTaiKhoan.Text = reader["TenTaiKhoan"].ToString();
                     txtSoTaiKhoan.Text = reader["SoTaiKhoan"].ToString();
                     txtLTK.Text = reader["LoaiTaiKhoan"].ToString();
-                    txtDiaChiEmail.Text = reader["DiaChiEmail"].ToString();
-                    txtCCCD.Text = reader["CCCD"].ToString();
 
                     // Lấy thông tin ảnh từ cơ sở dữ liệu
                     byte[] imageBytes = (byte[])reader["ImageData"];

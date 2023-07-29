@@ -20,9 +20,7 @@ namespace QuanLyTaiKhoanNganHang
             buttons = new List<Button>
             {
                 btnHome,
-                btnGuiTien,
                 btnChuyenKhoan,
-                btnRutTien,
                 btnKiemTraSoDu,
                 btnGiaoDich,
 
@@ -90,17 +88,6 @@ namespace QuanLyTaiKhoanNganHang
             formHome.Show();
         }
 
-        private void btnGuiTien_Click(object sender, EventArgs e)
-        {
-            foreach (Form form in this.MdiChildren)
-            {
-                form.Close();
-            }
-            FormGuiTien formGuiTien = new FormGuiTien();
-            formGuiTien.MdiParent = this;
-            formGuiTien.Show();
-        }
-
         private void btnChuyenKhoan_Click(object sender, EventArgs e)
         {
             foreach (Form form in this.MdiChildren)
@@ -110,17 +97,6 @@ namespace QuanLyTaiKhoanNganHang
             FormChuyenTien formChuyenTien = new FormChuyenTien();
             formChuyenTien.MdiParent = this;
             formChuyenTien.Show();
-        }
-
-        private void btnRutTien_Click(object sender, EventArgs e)
-        {
-            foreach (Form form in this.MdiChildren)
-            {
-                form.Close();
-            }
-            FormRutTien formRutTien = new FormRutTien();
-            formRutTien.MdiParent = this;
-            formRutTien.Show();
         }
 
         private void btnHome_Click(object sender, EventArgs e)
