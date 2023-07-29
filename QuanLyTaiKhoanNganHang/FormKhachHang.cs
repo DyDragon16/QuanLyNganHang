@@ -48,11 +48,11 @@ namespace QuanLyTaiKhoanNganHang
             // Đặt lại màu chữ của Button trước đó về màu ban đầu (nếu có)
             if (selectedButton != null)
             {
-                selectedButton.ForeColor = SystemColors.ControlText;
+                selectedButton.ForeColor = SystemColors.ButtonHighlight;
             }
 
             // Thay đổi màu chữ của Button được nhấn thành màu mới
-            clickedButton.ForeColor = Color.AliceBlue;
+            clickedButton.ForeColor = Color.Black;
 
             // Lưu Button được nhấn vào selectedButton
             selectedButton = clickedButton;

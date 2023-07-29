@@ -54,8 +54,8 @@ namespace QuanLyTaiKhoanNganHang
                 string query = "SELECT * FROM TaiKhoan WHERE TenTaiKhoan = '" + taiKhoan + "' AND MatKhau = '" + matKhau + "'";
                 if (new Modify().TaiKhoans(query).Count != 0)
                 {
-                    FormKhachHang formKhachHang = new FormKhachHang();
-                    formKhachHang.Show();
+                    FormBatDau formBatDau = new FormBatDau();
+                    formBatDau.Show();
                     this.Hide();
                 }
                 else

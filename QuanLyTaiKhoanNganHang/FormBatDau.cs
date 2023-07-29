@@ -40,8 +40,8 @@ namespace QuanLyTaiKhoanNganHang
                 MyprogressBar.Value = 0;
                 timer1.Stop();
                 this.Close();
-                MainForm main = new MainForm();
-                main.Show();
+                FormKhachHang formKhachHang = new FormKhachHang();
+                formKhachHang.Show();
             }
         }
 
