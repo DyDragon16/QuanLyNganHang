@@ -136,7 +136,7 @@
             this.panel3.BackColor = System.Drawing.Color.Transparent;
             this.panel3.Controls.Add(this.menuStrip1);
             this.panel3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.panel3.Location = new System.Drawing.Point(86, 606);
+            this.panel3.Location = new System.Drawing.Point(86, 583);
             this.panel3.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(184, 41);
@@ -201,7 +201,7 @@
             // 
             this.pictureBox9.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox9.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.z4521135277316_10b2c276799aeaa0391cb12b6262b04e;
-            this.pictureBox9.Location = new System.Drawing.Point(22, 606);
+            this.pictureBox9.Location = new System.Drawing.Point(22, 583);
             this.pictureBox9.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox9.Name = "pictureBox9";
             this.pictureBox9.Size = new System.Drawing.Size(49, 41);
@@ -213,7 +213,7 @@
             // 
             this.pictureBox8.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox8.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.z4521071139587_4a4174723187534c7e9a19b582660eee;
-            this.pictureBox8.Location = new System.Drawing.Point(21, 494);
+            this.pictureBox8.Location = new System.Drawing.Point(23, 480);
             this.pictureBox8.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(54, 53);
@@ -225,7 +225,7 @@
             // 
             this.pictureBox7.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox7.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.z4521098700189_3e2e23934aa384ada75fe3e1eb5f6b6c;
-            this.pictureBox7.Location = new System.Drawing.Point(13, 376);
+            this.pictureBox7.Location = new System.Drawing.Point(17, 373);
             this.pictureBox7.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox7.Name = "pictureBox7";
             this.pictureBox7.Size = new System.Drawing.Size(65, 60);
@@ -237,7 +237,7 @@
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox5.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.z4521128385436_46f754cf8b02371822b85ba4c7b42259;
-            this.pictureBox5.Location = new System.Drawing.Point(17, 262);
+            this.pictureBox5.Location = new System.Drawing.Point(21, 271);
             this.pictureBox5.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(58, 56);
@@ -253,7 +253,7 @@
             this.btnGiaoDich.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGiaoDich.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGiaoDich.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnGiaoDich.Location = new System.Drawing.Point(84, 501);
+            this.btnGiaoDich.Location = new System.Drawing.Point(86, 487);
             this.btnGiaoDich.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnGiaoDich.Name = "btnGiaoDich";
             this.btnGiaoDich.Size = new System.Drawing.Size(188, 41);
@@ -271,7 +271,7 @@
             this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnHome.Font = new System.Drawing.Font("UTM Micra", 8F);
             this.btnHome.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnHome.Location = new System.Drawing.Point(86, 162);
+            this.btnHome.Location = new System.Drawing.Point(86, 181);
             this.btnHome.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(188, 46);
@@ -289,7 +289,7 @@
             this.btnKiemTraSoDu.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKiemTraSoDu.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnKiemTraSoDu.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnKiemTraSoDu.Location = new System.Drawing.Point(82, 387);
+            this.btnKiemTraSoDu.Location = new System.Drawing.Point(86, 384);
             this.btnKiemTraSoDu.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnKiemTraSoDu.Name = "btnKiemTraSoDu";
             this.btnKiemTraSoDu.Size = new System.Drawing.Size(226, 41);
@@ -318,7 +318,7 @@
             this.btnChuyenKhoan.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChuyenKhoan.Font = new System.Drawing.Font("UTM Micra", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnChuyenKhoan.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnChuyenKhoan.Location = new System.Drawing.Point(82, 270);
+            this.btnChuyenKhoan.Location = new System.Drawing.Point(86, 279);
             this.btnChuyenKhoan.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.btnChuyenKhoan.Name = "btnChuyenKhoan";
             this.btnChuyenKhoan.Size = new System.Drawing.Size(226, 46);
@@ -332,7 +332,7 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.logo_home;
-            this.pictureBox2.Location = new System.Drawing.Point(22, 162);
+            this.pictureBox2.Location = new System.Drawing.Point(22, 181);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(5, 4, 5, 4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(49, 46);

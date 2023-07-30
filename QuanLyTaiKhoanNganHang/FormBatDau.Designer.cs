@@ -46,12 +46,12 @@
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("MS Reference Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("UTM Micra", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(172, 64);
+            this.label3.Location = new System.Drawing.Point(57, 58);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(189, 38);
+            this.label3.Size = new System.Drawing.Size(286, 41);
             this.label3.TabIndex = 1;
             this.label3.Text = "PHẦN MỀM";
             // 
@@ -59,12 +59,12 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("MS Reference Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("UTM Micra", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(170, 126);
+            this.label1.Location = new System.Drawing.Point(57, 133);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(733, 49);
+            this.label1.Size = new System.Drawing.Size(814, 41);
             this.label1.TabIndex = 2;
             this.label1.Text = "QUẢN LÝ TÀI KHOẢN NGÂN HÀNG";
             // 
@@ -72,22 +72,22 @@
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("UTM Micra", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(360, 444);
+            this.label2.Location = new System.Drawing.Point(234, 388);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(142, 26);
+            this.label2.Size = new System.Drawing.Size(238, 28);
             this.label2.TabIndex = 3;
             this.label2.Text = "phiên bản 1.0";
             // 
             // MyprogressBar
             // 
             this.MyprogressBar.BackColor = System.Drawing.Color.Purple;
-            this.MyprogressBar.Location = new System.Drawing.Point(160, 599);
+            this.MyprogressBar.Location = new System.Drawing.Point(91, 455);
             this.MyprogressBar.Margin = new System.Windows.Forms.Padding(4);
             this.MyprogressBar.Name = "MyprogressBar";
-            this.MyprogressBar.Size = new System.Drawing.Size(781, 12);
+            this.MyprogressBar.Size = new System.Drawing.Size(761, 12);
             this.MyprogressBar.TabIndex = 5;
             // 
             // timer1
@@ -98,12 +98,12 @@
             // 
             this.lblDongChuChay.AutoSize = true;
             this.lblDongChuChay.BackColor = System.Drawing.Color.Transparent;
-            this.lblDongChuChay.Font = new System.Drawing.Font("Times New Roman", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblDongChuChay.Font = new System.Drawing.Font("UTM Micra", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblDongChuChay.ForeColor = System.Drawing.Color.White;
-            this.lblDongChuChay.Location = new System.Drawing.Point(154, 389);
+            this.lblDongChuChay.Location = new System.Drawing.Point(86, 333);
             this.lblDongChuChay.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblDongChuChay.Name = "lblDongChuChay";
-            this.lblDongChuChay.Size = new System.Drawing.Size(249, 32);
+            this.lblDongChuChay.Size = new System.Drawing.Size(308, 28);
             this.lblDongChuChay.TabIndex = 6;
             this.lblDongChuChay.Text = "Loading Dữ Liệu ...";
             // 
@@ -111,7 +111,7 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::QuanLyTaiKhoanNganHang.Properties.Resources.moeny_load;
-            this.pictureBox1.Location = new System.Drawing.Point(711, 290);
+            this.pictureBox1.Location = new System.Drawing.Point(502, 191);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.MaximumSize = new System.Drawing.Size(350, 225);
             this.pictureBox1.MinimumSize = new System.Drawing.Size(350, 225);
@@ -126,10 +126,10 @@
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(365, 44);
+            this.pictureBox2.Location = new System.Drawing.Point(378, 13);
             this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(183, 78);
+            this.pictureBox2.Size = new System.Drawing.Size(295, 104);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
@@ -141,7 +141,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.BackgroundImage = global::QuanLyTaiKhoanNganHang.Properties.Resources.background;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1119, 624);
+            this.ClientSize = new System.Drawing.Size(949, 496);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lblDongChuChay);
